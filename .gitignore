@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Telegram session
+*.session
+*.session-journal
+
+# Temp media downloads
+temp_*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

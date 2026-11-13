@@ -1,0 +1,72 @@
+name: WatcherGuru Auto Poster
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_posts:
+        description: "Max posts to publish this run (older new posts are skipped)"
+        default: "5"
+      dry_run:
+        description: "Dry run: show what would be posted, publish nothing"
+        type: boolean
+        default: false
+  # schedule paused until the first test run succeeds
+  # schedule:
+  #   - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-poster   # never run two posters at once
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: ⬇️ Checkout Code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 📦 Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: 🔐 Restore Telegram Session
+        env:
+          TELEGRAM_SESSION_B64: ${{ secrets.TELEGRAM_SESSION_B64 }}
+        run: |
+          echo "${TELEGRAM_SESSION_B64}" | base64 -d > telegram_session.session
+          echo "✅ Telegram session restored."
+
+      - name: 🚀 Run Auto Poster
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          MAX_POSTS_PER_RUN: ${{ inputs.max_posts || '5' }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python main.py
+
+      - name: 📤 Commit and Push results.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results.json
+          if git diff --cached --quiet; then
+            echo "No new results."
+          else
+            git commit -m "🧠 Update results.json from auto-poster"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: 🧹 Cleanup Telegram Session
+        if: always()
+        run: rm -f telegram_session.session

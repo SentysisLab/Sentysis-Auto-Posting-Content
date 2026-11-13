@@ -1,333 +1,316 @@
-import os
-import json
-import time
+"""
+WatcherGuru -> X (Twitter) + Threads auto-poster.
+
+Reads the latest posts from the WatcherGuru Telegram channel and publishes
+them to our X and Threads accounts through the Zernio API.
+
+Run:
+    python main.py            # publish for real
+    python main.py --dry-run  # show what would be posted, publish nothing
+"""
+
+import argparse
 import asyncio
+import json
+import mimetypes
+import os
 import re
-import requests
+import time
+from dataclasses import dataclass, field
 from datetime import datetime
+from pathlib import Path
+
+import requests
+from dotenv import load_dotenv
 from telethon import TelegramClient
-from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument
+from telethon.tl.types import MessageMediaDocument, MessageMediaPhoto
+from zernio import Zernio, ZernioAPIError
 
-# --- Gemini (new client) ---
-from google import genai
-from google.genai import types
+load_dotenv()
 
-# === ENV ===
-API_ID = int(os.getenv("TELEGRAM_API_ID", "0"))
-API_HASH = os.getenv("TELEGRAM_API_HASH", "")
-FB_PAGE_ID = os.getenv("FB_PAGE_ID", "")
-LONG_LIVED_USER_TOKEN = os.getenv("LONG_LIVED_USER_TOKEN", "")
 
+# ============================================================================
+# Config
+# ============================================================================
+def env(name: str, default: str = "") -> str:
+    """Read an env var, also accepting its lowercase spelling."""
+    return os.getenv(name) or os.getenv(name.lower()) or default
+
+
+TELEGRAM_API_ID = int(env("TELEGRAM_API_ID", "0"))
+TELEGRAM_API_HASH = env("TELEGRAM_API_HASH")
+ZERNIO_API_KEY = env("ZERNIO_API_KEY")
+
+# Optional overrides; if unset, account IDs are looked up from Zernio.
+TWITTER_ACCOUNT_ID = env("ZERNIO_TWITTER_ACCOUNT_ID")
+THREADS_ACCOUNT_ID = env("ZERNIO_THREADS_ACCOUNT_ID")
+
+SOURCE_CHAT = "WatcherGuru"
 SESSION_FILE = "telegram_session"
-RESULT_FILE = "results.json"
-SOURCE_CHAT = "WatcherGuru"  # change if needed
+RESULT_FILE = Path("results.json")
+FETCH_LIMIT = 20                # latest Telegram messages to check per run
+MAX_POSTS_PER_RUN = max(1, int(env("MAX_POSTS_PER_RUN", "5")))  # newest N get posted; older backlog is skipped
+MIN_WORDS = 3                   # skip very short messages
+SLEEP_BETWEEN_POSTS_SEC = 2
 
-# HTTP defaults
-HTTP_TIMEOUT = 60
-SLEEP_BETWEEN_POSTS_SEC = 1
-
-# create Gemini client (reads GEMINI_API_KEY from env)
-_gemini_client = genai.Client()
-
-# cache page access token to avoid /me/accounts on every call
-_PAGE_TOKEN_CACHE = None
+# Platform limits (docs.zernio.com/platforms/*)
+TEXT_LIMIT = {"twitter": 280, "threads": 500}
+MAX_IMAGES = 4                  # X allows 4 images; Threads allows more
+TEMP_DIR = Path("temp_media")
 
 
-# === Utils ===
+# ============================================================================
+# Text helpers
+# ============================================================================
 def normalize(s: str) -> str:
     """Normalize text for de-duplication."""
     return re.sub(r"\s+", " ", (s or "").strip().lower())
 
 
-# === Load all previously posted texts from results.json ===
-def load_posted_texts_from_results() -> set:
+def clean_caption(text: str) -> str:
+    """Strip mentions, links and markdown links from the Telegram text."""
+    cleaned = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # [label](url) -> label
+    cleaned = cleaned.replace("**", "").replace("__", "")      # markdown bold
+    cleaned = re.sub(r"https?://\S+", "", cleaned)
+    cleaned = re.sub(r"@WatcherGuru\b", "", cleaned, flags=re.IGNORECASE)  # source credit
+    cleaned = re.sub(r"@(\w+)", r"\1", cleaned)                            # @PayPal -> PayPal (no tagging)
+    cleaned = re.sub(r"[ \t]+", " ", cleaned)
+    cleaned = re.sub(r"\n\s*\n+", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def fit(text: str, limit: int) -> str:
+    """Trim text to a platform's character limit, on a word boundary."""
+    if len(text) <= limit:
+        return text
+    cut = text[: limit - 1].rsplit(" ", 1)[0].rstrip()
+    return cut + "…"
+
+
+# ============================================================================
+# Results store (results.json)
+# ============================================================================
+def load_results() -> list[dict]:
     try:
-        with open(RESULT_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return {normalize(entry["original_text"]) for entry in data if entry.get("original_text")}
-    except Exception:
-        return set()
+        return json.loads(RESULT_FILE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
 
 
-# === Append new entries to results.json (no overwrite) ===
-def log_result(new_entries: list):
-    try:
-        with open(RESULT_FILE, "r", encoding="utf-8") as f:
-            existing_entries = json.load(f)
-    except Exception:
-        existing_entries = []
-
-    combined = existing_entries + new_entries
-    with open(RESULT_FILE, "w", encoding="utf-8") as f:
-        json.dump(combined, f, ensure_ascii=False, indent=2)
+def save_results(entries: list[dict]) -> None:
+    RESULT_FILE.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-# === Translate (Gemini 2.5 via google-genai) ===
-def translate_to_malay(text: str, retries: int = 2) -> str:
-    cleaned = re.sub(r'@\w+', '', text, flags=re.IGNORECASE)
-    cleaned = re.sub(r'https?://\S+', '', cleaned)
-    cleaned = re.sub(r'\[.*?\]\(.*?\)', '', cleaned)
-    cleaned = re.sub(r'\n+', '\n', cleaned).strip()
+def upsert_result(entries: list[dict], entry: dict) -> None:
+    """Replace the entry for the same Telegram message, or append it."""
+    for i, existing in enumerate(entries):
+        if existing.get("telegram_id") == entry["telegram_id"]:
+            entries[i] = entry
+            return
+    entries.append(entry)
 
-    prompt = (
-        "Translate the following post into Malay.\n"
-        "Do not include usernames, mentions, links, or Telegram source references.\n"
-        "If the original starts with 'JUST IN:' or '**JUST IN:**', translate it as 'TERKINI:'.\n"
-        "Write it as a casual, friendly FB caption in one paragraph — no heading, no explanation.\n"
-        "Avoid slang or shouting; keep it natural, chill, and neutral.\n\n"
-        f"'{cleaned}'"
-    )
 
-    for attempt in range(1, retries + 1):
+def already_done(entries: list[dict]) -> tuple[set[int], set[str]]:
+    """IDs and texts that were published (fully or partly) — never repost those."""
+    done = [e for e in entries if e.get("status") in ("published", "partial", "duplicate", "skipped")]
+    return {e["telegram_id"] for e in done}, {normalize(e.get("original_text", "")) for e in done}
+
+
+# ============================================================================
+# Telegram source
+# ============================================================================
+@dataclass
+class SourcePost:
+    telegram_id: int
+    text: str
+    images: list[Path] = field(default_factory=list)
+    videos: list[Path] = field(default_factory=list)
+
+    def cleanup(self) -> None:
+        for p in self.images + self.videos:
+            p.unlink(missing_ok=True)
+
+
+async def download_media(client: TelegramClient, messages: list) -> tuple[list[Path], list[Path]]:
+    images, videos = [], []
+    TEMP_DIR.mkdir(exist_ok=True)
+    for m in messages:
         try:
-            resp = _gemini_client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
-                # disable "thinking" to match your docs example
-                config=types.GenerateContentConfig(
-                    thinking_config=types.ThinkingConfig(thinking_budget=0)
-                ),
-            )
-            out = (getattr(resp, "text", "") or "").strip()
-            if out:
-                return out
-            else:
-                print(f"[Gemini] Empty response (attempt {attempt})")
+            if isinstance(m.media, MessageMediaPhoto):
+                path = TEMP_DIR / f"{m.id}.jpg"
+                await client.download_media(m.media, file=str(path))
+                images.append(path)
+            elif isinstance(m.media, MessageMediaDocument) and "video" in (m.file.mime_type or ""):
+                path = TEMP_DIR / f"{m.id}.mp4"
+                await client.download_media(m.media, file=str(path))
+                videos.append(path)
         except Exception as e:
-            print(f"[Gemini Error] {e} (attempt {attempt})")
-        time.sleep(1)
-
-    return "Translation failed"
+            print(f"[Telegram] Media download failed for message {m.id}: {e}")
+    return images, videos
 
 
-# === Facebook Posting ===
-def get_fb_token() -> str | None:
-    global _PAGE_TOKEN_CACHE
-    if _PAGE_TOKEN_CACHE:
-        return _PAGE_TOKEN_CACHE
-    try:
-        r = requests.get(
-            "https://graph.facebook.com/me/accounts",
-            params={"access_token": LONG_LIVED_USER_TOKEN},
-            timeout=HTTP_TIMEOUT,
+async def album_messages(client: TelegramClient, msg) -> list:
+    """All messages in the same album as msg, in order."""
+    nearby = await client.get_messages(SOURCE_CHAT, ids=list(range(msg.id - 10, msg.id + 11)))
+    return sorted((m for m in nearby if m and m.grouped_id == msg.grouped_id), key=lambda m: m.id)
+
+
+# ============================================================================
+# Zernio publisher
+# ============================================================================
+class Publisher:
+    def __init__(self, dry_run: bool = False):
+        self.client = Zernio(api_key=ZERNIO_API_KEY)
+        self.dry_run = dry_run
+        self.accounts = self._resolve_accounts()
+
+    def _resolve_accounts(self) -> dict[str, str]:
+        accounts = {"twitter": TWITTER_ACCOUNT_ID, "threads": THREADS_ACCOUNT_ID}
+        if not all(accounts.values()):
+            for a in self.client.accounts.list_accounts().get("accounts", []):
+                platform = a.get("platform")
+                if platform in accounts and not accounts[platform] and a.get("isActive"):
+                    accounts[platform] = a["_id"]
+        missing = [p for p, acc in accounts.items() if not acc]
+        if missing:
+            raise RuntimeError(f"No connected Zernio account for: {', '.join(missing)}")
+        return accounts
+
+    def upload(self, path: Path) -> str:
+        """Upload a local file via presigned URL (works for any size). Returns its public URL."""
+        content_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+        presign = self.client.media.get_media_presigned_url(
+            filename=path.name, content_type=content_type, size=path.stat().st_size
         )
-        if r.ok:
-            data = r.json().get("data", [])
-            if data:
-                _PAGE_TOKEN_CACHE = data[0]["access_token"]
-                return _PAGE_TOKEN_CACHE
-            print("[FB] No pages found for the provided user token.")
+        with path.open("rb") as f:
+            r = requests.put(presign["uploadUrl"], data=f, headers={"Content-Type": content_type}, timeout=300)
+        r.raise_for_status()
+        return presign["publicUrl"]
+
+    def publish(self, post: SourcePost) -> dict:
+        # X can't mix video and images: prefer a single video, else up to 4 images.
+        if post.videos:
+            media = [("video", post.videos[0])]
         else:
-            print(f"[FB Token Error] {r.status_code}: {r.text}")
-    except Exception as e:
-        print(f"[FB Token Exception] {e}")
-    return None
+            media = [("image", p) for p in post.images[:MAX_IMAGES]]
+        platforms = []
+        for platform, account_id in self.accounts.items():
+            item = {"platform": platform, "accountId": account_id}
+            text = fit(post.text, TEXT_LIMIT[platform])
+            if text != post.text:
+                item["customContent"] = text
+            platforms.append(item)
 
+        if self.dry_run:  # Zernio's own dry_run only supports TikTok, so stop here
+            print(f"[DRY RUN] would post {len(media)} media item(s): {post.text!r}")
+            return {"post": {"status": "dry_run", "platforms": []}}
 
-def post_text_only_to_fb(caption: str) -> bool:
-    token = get_fb_token()
-    if not token:
-        return False
-    try:
-        r = requests.post(
-            f"https://graph.facebook.com/{FB_PAGE_ID}/feed",
-            data={"message": caption, "access_token": token},
-            timeout=HTTP_TIMEOUT,
+        media_items = [{"type": kind, "url": self.upload(path)} for kind, path in media]
+        return self.client.posts.create_post(
+            content=post.text,
+            media_items=media_items or None,
+            platforms=platforms,
+            publish_now=True,
+            idempotency_key=f"watcherguru-{post.telegram_id}",
         )
-        print("[FB] Text-only post success." if r.ok else f"[FB Text Error] {r.status_code}: {r.text}")
-        return r.ok
-    except Exception as e:
-        print(f"[FB Text Exception] {e}")
-        return False
 
 
-def post_photos_to_fb(image_paths: list[str], caption: str) -> bool:
-    token = get_fb_token()
-    if not token:
-        return False
-
-    media_ids: list[str] = []
-    for path in image_paths:
-        if not os.path.exists(path):
-            continue
-        try:
-            with open(path, "rb") as f:
-                r = requests.post(
-                    f"https://graph.facebook.com/{FB_PAGE_ID}/photos",
-                    data={"published": "false", "access_token": token},
-                    files={"source": f},
-                    timeout=HTTP_TIMEOUT,
-                )
-            if r.ok:
-                media_ids.append(r.json()["id"])
-            else:
-                print(f"[FB Upload Image Error] {r.status_code}: {r.text}")
-        except Exception as e:
-            print(f"[FB Upload Image Exception] {e}")
-
-    if not media_ids:
-        return False
-
-    payload = {"message": caption, "access_token": token}
-    for i, mid in enumerate(media_ids):
-        payload[f"attached_media[{i}]"] = json.dumps({"media_fbid": mid})
-
-    try:
-        r = requests.post(f"https://graph.facebook.com/{FB_PAGE_ID}/feed", data=payload, timeout=HTTP_TIMEOUT)
-        print("[FB] Image post success." if r.ok else f"[FB Image Post Error] {r.status_code}: {r.text}")
-        return r.ok
-    except Exception as e:
-        print(f"[FB Image Post Exception] {e}")
-        return False
+def summarize(response: dict) -> tuple[str, dict]:
+    """Overall status + per-platform status/url/error from a create_post response."""
+    p = response.get("post", {})
+    per_platform = {}
+    for item in p.get("platforms", []):
+        per_platform[item.get("platform")] = {
+            "status": item.get("status"),
+            "url": item.get("platformPostUrl"),
+            "error": item.get("errorMessage"),
+        }
+    return p.get("status", "unknown"), per_platform
 
 
-def post_video_to_fb(video_path: str, caption: str) -> bool:
-    token = get_fb_token()
-    if not token:
-        return False
-    if not os.path.exists(video_path):
-        return False
-    try:
-        with open(video_path, "rb") as f:
-            r = requests.post(
-                f"https://graph.facebook.com/{FB_PAGE_ID}/videos",
-                data={"description": caption, "access_token": token},
-                files={"source": f},
-                timeout=HTTP_TIMEOUT,
-            )
-        print("[FB] Video post success." if r.ok else f"[FB Video Error] {r.status_code}: {r.text}")
-        return r.ok
-    except Exception as e:
-        print(f"[FB Video Exception] {e}")
-        return False
+# ============================================================================
+# Main
+# ============================================================================
+async def run(dry_run: bool) -> None:
+    if not (TELEGRAM_API_ID and TELEGRAM_API_HASH and ZERNIO_API_KEY):
+        raise RuntimeError("Missing env vars: TELEGRAM_API_ID, TELEGRAM_API_HASH, ZERNIO_API_KEY")
 
+    publisher = Publisher(dry_run=dry_run)
+    results = load_results()
+    done_ids, done_texts = already_done(results)
+    seen_albums = set()
 
-# === MAIN ===
-async def main():
-    if not (API_ID and API_HASH and FB_PAGE_ID and LONG_LIVED_USER_TOKEN):
-        raise RuntimeError("Missing required environment variables.")
-
-    client = TelegramClient(SESSION_FILE, API_ID, API_HASH)
+    client = TelegramClient(SESSION_FILE, TELEGRAM_API_ID, TELEGRAM_API_HASH)
     await client.start()
+    try:
+        # Collect new posts, oldest first, so they go out in the same order as on Telegram.
+        candidates = []
+        messages = [m async for m in client.iter_messages(SOURCE_CHAT, limit=FETCH_LIMIT)]
+        for msg in reversed(messages):
+            original = (msg.raw_text or "").strip()
+            if len(original.split()) < MIN_WORDS:
+                continue
+            if msg.id in done_ids or normalize(original) in done_texts:
+                continue
+            if msg.grouped_id:
+                if msg.grouped_id in seen_albums:
+                    continue
+                seen_albums.add(msg.grouped_id)
+            caption = clean_caption(original)
+            if caption:
+                candidates.append((msg, original, caption))
 
-    posted_texts = load_posted_texts_from_results()
-    media_group_ids_done = set()
-    results = []
+        # Only post the newest few; older backlog is marked skipped so it never floods the feed.
+        backlog, candidates = candidates[:-MAX_POSTS_PER_RUN], candidates[-MAX_POSTS_PER_RUN:]
+        for msg, original, caption in backlog:
+            print(f"[SKIPPED] backlog: {caption[:60]}...")
+            if not dry_run:
+                upsert_result(results, {"telegram_id": msg.id, "original_text": original, "caption": caption,
+                                        "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                                        "status": "skipped"})
+        if backlog and not dry_run:
+            save_results(results)
 
-    async for msg in client.iter_messages(SOURCE_CHAT, limit=20):
-        original_text = (msg.text or "").strip()
-        if not original_text or len(original_text.split()) < 3:
-            continue
+        for msg, original, caption in candidates:
+            media_msgs = await album_messages(client, msg) if msg.grouped_id else [msg]
+            images, videos = await download_media(client, media_msgs)
+            post = SourcePost(msg.id, caption, images, videos)
 
-        # de-dupe by normalized text
-        if normalize(original_text) in posted_texts:
-            print(f"[SKIP] Already posted content: {original_text[:60]}...")
-            continue
-
-        # skip duplicate handling for already-processed media groups
-        mgid = getattr(msg, "media_group_id", None)
-        if mgid and mgid in media_group_ids_done:
-            continue
-
-        translated = translate_to_malay(original_text)
-        if translated == "Translation failed":
-            continue
-
-        image_paths: list[str] = []
-        video_paths: list[str] = []
-        success = False
-
-        # --- Handle media groups (photos + videos) ---
-        if mgid:
-            group_msgs = []
-            # collect nearby messages; limit-based scan is simpler/safer
-            async for grouped in client.iter_messages(SOURCE_CHAT, limit=40, offset_id=msg.id):
-                if getattr(grouped, "media_group_id", None) == mgid:
-                    group_msgs.append(grouped)
-
-            # Ensure chronological order
-            group_msgs = list(reversed(group_msgs))
-            media_group_ids_done.add(mgid)
-
-            for media_msg in group_msgs:
-                # Photos
-                if isinstance(media_msg.media, MessageMediaPhoto):
-                    path = f"temp_{media_msg.id}.jpg"
-                    try:
-                        await client.download_media(media_msg.media, file=path)
-                        image_paths.append(path)
-                    except Exception as e:
-                        print(f"[DL Photo Error] {e}")
-
-                # Videos in group
-                elif isinstance(media_msg.media, MessageMediaDocument):
-                    try:
-                        mime = getattr(media_msg.file, "mime_type", "") or ""
-                        if "video" in mime:
-                            vpath = f"temp_{media_msg.id}.mp4"
-                            await client.download_media(media_msg.media, file=vpath)
-                            video_paths.append(vpath)
-                    except Exception as e:
-                        print(f"[DL Video Error] {e}")
-
-        else:
-            # Single message media handling
-            if isinstance(msg.media, MessageMediaPhoto):
-                path = f"temp_{msg.id}.jpg"
-                try:
-                    await client.download_media(msg.media, file=path)
-                    image_paths.append(path)
-                except Exception as e:
-                    print(f"[DL Photo Error] {e}")
-
-            elif isinstance(msg.media, MessageMediaDocument):
-                try:
-                    mime = getattr(msg.file, "mime_type", "") or ""
-                    if "video" in mime:
-                        vpath = f"temp_{msg.id}.mp4"
-                        await client.download_media(msg.media, file=vpath)
-                        video_paths.append(vpath)
-                except Exception as e:
-                    print(f"[DL Video Error] {e}")
-
-        # --- Post priority: if any video exists, post first video with caption; else photos; else text ---
-        try:
-            if video_paths:
-                success = post_video_to_fb(video_paths[0], translated)
-            elif image_paths:
-                success = post_photos_to_fb(image_paths, translated)
-            else:
-                success = post_text_only_to_fb(translated)
-        except Exception as e:
-            print(f"[FB Post Exception] {e}")
-            success = False
-
-        if success:
-            results.append({
+            entry = {
                 "telegram_id": msg.id,
-                "original_text": original_text,
-                "translated_caption": translated,
-                "fb_status": "Posted",
-                "date_posted": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            })
-            # update in-memory de-dupe set
-            posted_texts.add(normalize(original_text))
-
-        # cleanup temp files
-        for path in image_paths + video_paths:
+                "original_text": original,
+                "caption": caption,
+                "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            }
             try:
-                if os.path.exists(path):
-                    os.remove(path)
-            except Exception:
-                pass
+                response = publisher.publish(post)
+                status, per_platform = summarize(response)
+                entry.update(status=status, zernio_post_id=response.get("post", {}).get("_id"),
+                             platforms=per_platform)
+                print(f"[{status.upper()}] {caption[:60]}...")
+                for platform, info in per_platform.items():
+                    if info.get("error"):
+                        print(f"    {platform}: {info['error']}")
+            except ZernioAPIError as e:
+                status = "duplicate" if e.status_code == 409 else "failed"
+                entry.update(status=status, error=str(e))
+                print(f"[{status.upper()}] {caption[:60]}... -> {e}")
+            except Exception as e:
+                entry.update(status="failed", error=str(e))
+                print(f"[FAILED] {caption[:60]}... -> {e}")
+            finally:
+                post.cleanup()
 
-        time.sleep(SLEEP_BETWEEN_POSTS_SEC)
-
-    if results:
-        log_result(results)
-
-    await client.disconnect()
+            if not dry_run:
+                upsert_result(results, entry)
+                save_results(results)
+            time.sleep(SLEEP_BETWEEN_POSTS_SEC)
+    finally:
+        await client.disconnect()
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--dry-run", action="store_true", help="show what would be posted without publishing")
+    args = parser.parse_args()
+    asyncio.run(run(dry_run=args.dry_run or env("DRY_RUN") == "1"))
