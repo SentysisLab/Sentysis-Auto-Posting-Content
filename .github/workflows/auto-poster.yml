@@ -5,12 +5,12 @@ on:
     inputs:
       max_posts:
         description: "Max posts to publish this run (older new posts are skipped)"
-        default: "3"
+        default: "2"
       dry_run:
         description: "Dry run: show what would be posted, publish nothing"
         type: boolean
         default: false
-  # Hourly: posts the newest 3 WatcherGuru posts (older ones that hour are skipped).
+  # Hourly: posts the newest 2 WatcherGuru posts (older ones that hour are skipped).
   # Paused for now: remove the # on the two lines below to turn it on.
   # schedule:
   #   - cron: "0 * * * *"
@@ -51,7 +51,7 @@ jobs:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
-          MAX_POSTS_PER_RUN: ${{ inputs.max_posts || '3' }}
+          MAX_POSTS_PER_RUN: ${{ inputs.max_posts || '2' }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: python main.py
 
