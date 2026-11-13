@@ -11,9 +11,8 @@ on:
         type: boolean
         default: false
   # Hourly: posts the newest 2 WatcherGuru posts (older ones that hour are skipped).
-  # Paused for now: remove the # on the two lines below to turn it on.
-  # schedule:
-  #   - cron: "0 * * * *"
+  schedule:
+    - cron: "0 * * * *"
 
 permissions:
   contents: write

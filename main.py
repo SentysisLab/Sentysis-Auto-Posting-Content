@@ -74,7 +74,7 @@ def clean_caption(text: str) -> str:
     cleaned = re.sub(r"https?://\S+", "", cleaned)
     cleaned = re.sub(r"@WatcherGuru\b", "", cleaned, flags=re.IGNORECASE)  # source credit
     cleaned = re.sub(r"@(\w+)", r"\1", cleaned)                            # @PayPal -> PayPal (no tagging)
-    cleaned = re.sub(r"^\s*JUST IN\s*:\s*", "", cleaned, flags=re.IGNORECASE)  # drop "JUST IN:" label
+    cleaned = re.sub(r"^\s*(JUST IN|BREAKING)\s*:\s*", "", cleaned, flags=re.IGNORECASE)  # drop news labels
     cleaned = re.sub(r"[ \t]+", " ", cleaned)
     cleaned = re.sub(r"\n\s*\n+", "\n\n", cleaned)
     return cleaned.strip()
