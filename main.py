@@ -49,7 +49,7 @@ SOURCE_CHAT = "WatcherGuru"
 SESSION_FILE = "telegram_session"
 RESULT_FILE = Path("results.json")
 FETCH_LIMIT = 20                # latest Telegram messages to check per run
-MAX_POSTS_PER_RUN = max(1, int(env("MAX_POSTS_PER_RUN", "5")))  # newest N get posted; older backlog is skipped
+MAX_POSTS_PER_RUN = max(1, int(env("MAX_POSTS_PER_RUN", "3")))  # newest N get posted; older backlog is skipped
 MIN_WORDS = 3                   # skip very short messages
 SLEEP_BETWEEN_POSTS_SEC = 2
 
