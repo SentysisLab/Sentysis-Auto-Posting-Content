@@ -55,6 +55,9 @@ SLEEP_BETWEEN_POSTS_SEC = 2
 
 # Platform limits (docs.zernio.com/platforms/*)
 TEXT_LIMIT = {"twitter": 280, "threads": 500}
+
+# Call to action added to the end of every post
+CTA = "You can turn this into a token. Create the Narrative, stake conviction, and launch within 48 hours."
 MAX_IMAGES = 4                  # X allows 4 images; Threads allows more
 TEMP_DIR = Path("temp_media")
 
@@ -80,12 +83,28 @@ def clean_caption(text: str) -> str:
     return cleaned.strip()
 
 
-def fit(text: str, limit: int) -> str:
-    """Trim text to a platform's character limit, on a word boundary."""
-    if len(text) <= limit:
+def x_len(text: str) -> int:
+    """Approximate X's weighted length: emoji and most non-Latin characters count as 2."""
+    return sum(2 if ord(ch) > 0x10FF else 1 for ch in text)
+
+
+def fit(text: str, limit: int, measure=len) -> str:
+    """Trim text to a character limit, on a word boundary."""
+    if measure(text) <= limit:
         return text
-    cut = text[: limit - 1].rsplit(" ", 1)[0].rstrip()
+    cut = text
+    while cut and measure(cut + "…") > limit:
+        cut = cut[:-1]
+    cut = cut.rsplit(" ", 1)[0].rstrip() if " " in cut else cut
     return cut + "…"
+
+
+def compose(caption: str, platform: str) -> str:
+    """Caption + CTA, trimming only the caption so the CTA is always shown in full."""
+    measure = x_len if platform == "twitter" else len
+    suffix = f"\n\n{CTA}"
+    body = fit(caption, TEXT_LIMIT[platform] - measure(suffix), measure)
+    return body + suffix
 
 
 # ============================================================================
@@ -194,21 +213,22 @@ class Publisher:
             media = [("video", post.videos[0])]
         else:
             media = [("image", p) for p in post.images[:MAX_IMAGES]]
+        content = compose(post.text, "threads")
         platforms = []
         for platform, account_id in self.accounts.items():
             item = {"platform": platform, "accountId": account_id}
-            text = fit(post.text, TEXT_LIMIT[platform])
-            if text != post.text:
+            text = compose(post.text, platform)
+            if text != content:
                 item["customContent"] = text
             platforms.append(item)
 
         if self.dry_run:  # Zernio's own dry_run only supports TikTok, so stop here
-            print(f"[DRY RUN] would post {len(media)} media item(s): {post.text!r}")
+            print(f"[DRY RUN] would post {len(media)} media item(s): {content!r}")
             return {"post": {"status": "dry_run", "platforms": []}}
 
         media_items = [{"type": kind, "url": self.upload(path)} for kind, path in media]
         return self.client.posts.create_post(
-            content=post.text,
+            content=content,
             media_items=media_items or None,
             platforms=platforms,
             publish_now=True,
