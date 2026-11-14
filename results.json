@@ -361,5 +361,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16039,
+    "original_text": "JUST IN: Two Nvidia investors holding over $2 billion in $NVDA shares call for board to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Two Nvidia investors holding over $2 billion in $NVDA shares call for board to reinstate Jensen Huang as CEO.",
+    "date": "2026-11-14 18:00:48",
+    "status": "published",
+    "zernio_post_id": "6af8a1d14b73b6869fe61770",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121664672365531293",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfuzQeRAH_q",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16040,
+    "original_text": "JUST IN: 🇺🇸 Coinbase CEO Brian Armstrong says crypto stablecoins have massively strengthened the US dollar's status as the world's reserve currency.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Coinbase CEO Brian Armstrong says crypto stablecoins have massively strengthened the US dollar's status as the world's reserve currency.",
+    "date": "2026-11-14 18:01:03",
+    "status": "published",
+    "zernio_post_id": "6af8a1df4b73b6869fe6181a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121664731714830395",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfuzSGBgGtG",
+        "error": null
+      }
+    }
   }
 ]
