@@ -401,5 +401,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16041,
+    "original_text": "JUST IN: $645,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
+    "caption": "$645,000,000 worth of crypto longs liquidated in the past 30 minutes.",
+    "date": "2026-11-14 22:00:54",
+    "status": "published",
+    "zernio_post_id": "6af8da17c367f45012e0b561",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121725106166563190",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfvOvNSjjaT",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16042,
+    "original_text": "JUST IN: Elon Musk's SpaceX $SPCX successfully catches Starship rocket at launch tower for the first time in history.\n\n@WatcherGuru",
+    "caption": "Elon Musk's SpaceX $SPCX successfully catches Starship rocket at launch tower for the first time in history.",
+    "date": "2026-11-14 22:01:21",
+    "status": "published",
+    "zernio_post_id": "6af8da338ffe8dd4f865b3a5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121725251268518173",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfvO0jJi2Wj",
+        "error": null
+      }
+    }
   }
 ]
