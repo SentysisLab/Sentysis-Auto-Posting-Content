@@ -321,5 +321,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16035,
+    "original_text": "JUST IN: $XRP crashes under $0.95 for the first time since November 2024.\n\n@WatcherGuru",
+    "caption": "$XRP crashes under $0.95 for the first time since November 2024.",
+    "date": "2026-11-14 17:00:57",
+    "status": "published",
+    "zernio_post_id": "6af893cb24cbaa3bfbf2dadf",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121649628709781714",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfusbcVAKNY",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16037,
+    "original_text": "JUST IN: Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 100,000 signatures.\n\n@WatcherGuru",
+    "caption": "Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 100,000 signatures.",
+    "date": "2026-11-14 17:01:32",
+    "status": "published",
+    "zernio_post_id": "6af893ee127ebb9368f33339",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121649778010304816",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfusft-jURq",
+        "error": null
+      }
+    }
   }
 ]
