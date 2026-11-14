@@ -10,10 +10,9 @@ on:
         description: "Dry run: show what would be posted, publish nothing"
         type: boolean
         default: false
-  # Hourly at :17: posts the newest 2 WatcherGuru posts (older ones that hour are skipped).
-  schedule:
-        - cron: "23 * * * *"
-   # :23 past each hour; GitHub often drops :00 runs
+  # Started every hour at :23 by cron-job.org (via the GitHub API), not by GitHub's
+  # own `schedule:` trigger, which never fired for this repo. Each run posts the
+  # newest 2 WatcherGuru posts; older new ones are skipped.
 
 permissions:
   contents: write

@@ -99,8 +99,24 @@ def fit(text: str, limit: int, measure=len) -> str:
     return cut + "…"
 
 
+def one_cashtag(text: str) -> str:
+    """X allows one cashtag per post: keep the first $TICKER, drop the $ from the rest ($67,000 is untouched)."""
+    seen = False
+
+    def repl(m: re.Match) -> str:
+        nonlocal seen
+        if seen:
+            return m.group(1)
+        seen = True
+        return m.group(0)
+
+    return re.sub(r"(?<![\w$])\$([A-Za-z][A-Za-z0-9_]{0,9})\b", repl, text)
+
+
 def compose(caption: str, platform: str) -> str:
     """Caption + CTA, trimming only the caption so the CTA is always shown in full."""
+    if platform == "twitter":
+        caption = one_cashtag(caption)
     measure = x_len if platform == "twitter" else len
     suffix = f"\n\n{CTA}"
     body = fit(caption, TEXT_LIMIT[platform] - measure(suffix), measure)
