@@ -441,5 +441,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16043,
+    "original_text": "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n$BTC crashed 6.74%\n$ETH crashed 9.36%\n$BNB crashed 9.34%\n$XRP crashed 10.92%\n$SOL crashed 11.79%\n\n@WatcherGuru",
+    "caption": "$230,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n$BTC crashed 6.74%\n$ETH crashed 9.36%\n$BNB crashed 9.34%\n$XRP crashed 10.92%\n$SOL crashed 11.79%",
+    "date": "2026-11-14 23:00:47",
+    "status": "published",
+    "zernio_post_id": "6af8e821dfe201c523c53d93",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121740171280257488",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfvVlsmjWw4",
+        "error": null
+      }
+    }
   }
 ]
