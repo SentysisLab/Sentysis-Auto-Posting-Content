@@ -301,5 +301,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16033,
+    "original_text": "JUST IN: Watcher Guru Inc. signs petition to reinstate Jensen Huang as Nvidia $NVDA CEO.\n\n@WatcherGuru",
+    "caption": "Watcher Guru Inc. signs petition to reinstate Jensen Huang as Nvidia $NVDA CEO.",
+    "date": "2026-11-14 16:00:47",
+    "status": "published",
+    "zernio_post_id": "6af885b1354b5c50f675f212",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121634492011930111",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfuli7agBC9",
+        "error": null
+      }
+    }
   }
 ]
