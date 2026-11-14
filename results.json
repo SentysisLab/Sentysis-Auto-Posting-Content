@@ -130,5 +130,136 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16010,
+    "original_text": "JUST IN: Nvidia $NVDA approaches $ARM CEO Rene Haas to potentially replace Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA approaches $ARM CEO Rene Haas to potentially replace Jensen Huang as CEO.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16012,
+    "original_text": "JUST IN: Nvidia $NVDA unveils 'GR00T 2' AI model that allows robots to learn from humans and share skills with other robot bodies.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA unveils 'GR00T 2' AI model that allows robots to learn from humans and share skills with other robot bodies.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16013,
+    "original_text": "JUST IN: 🇺🇸 FAA issues nationwide ground stop for all flights.\n\nAll flight departures have been halted.\n\n@WatcherGuru",
+    "caption": "🇺🇸 FAA issues nationwide ground stop for all flights.\n\nAll flight departures have been halted.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16014,
+    "original_text": "JUST IN: Elon Musk says he is signing a petition to reinstate Jensen Huang as Nvidia $NVDA CEO.\n\n@WatcherGuru",
+    "caption": "Elon Musk says he is signing a petition to reinstate Jensen Huang as Nvidia $NVDA CEO.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16016,
+    "original_text": "JUST IN: 🇺🇸 Federal Reserve report identifies artificial intelligence as a major risk to the US financial system.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Federal Reserve report identifies artificial intelligence as a major risk to the US financial system.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16017,
+    "original_text": "JUST IN: 🇺🇸 FAA nationwide ground stop was not caused by a cyberattack, CNN reports.\n\n@WatcherGuru",
+    "caption": "🇺🇸 FAA nationwide ground stop was not caused by a cyberattack, CNN reports.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16018,
+    "original_text": "JUST IN: 🇺🇸 FBI investigates whether software update caused mass FAA outage leading to nationwide ground stop.\n\n@WatcherGuru",
+    "caption": "🇺🇸 FBI investigates whether software update caused mass FAA outage leading to nationwide ground stop.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16019,
+    "original_text": "JUST IN: 🇺🇸 Department of Homeland Security says it cannot rule out AI or a cyberattack as the cause of nationwide FAA ground stop.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Department of Homeland Security says it cannot rule out AI or a cyberattack as the cause of nationwide FAA ground stop.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16020,
+    "original_text": "JUST IN: 🇺🇸 DHS says it is looking into new $875 million AI traffic control system that has been rolling out nationwide as potential reason for failures leading to ground stop.\n\n@WatcherGuru",
+    "caption": "🇺🇸 DHS says it is looking into new $875 million AI traffic control system that has been rolling out nationwide as potential reason for failures leading to ground stop.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16021,
+    "original_text": "JUST IN: 🇺🇸 Microsoft $MSFT says FAA ground stop does not appear to be linked to its services.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Microsoft $MSFT says FAA ground stop does not appear to be linked to its services.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16022,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 Elon Musk to join President Trump on his trip to China next week.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 Elon Musk to join President Trump on his trip to China next week.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16023,
+    "original_text": "JUST IN: 🇺🇸 US officially lifts nationwide FAA ground stop.\n\n@WatcherGuru",
+    "caption": "🇺🇸 US officially lifts nationwide FAA ground stop.",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16024,
+    "original_text": "JUST IN: 🇺🇸 US Transportation Secretary Sean Duffy says FAA nationwide ground stop was due to \"an incredibly old air traffic system\" that was \"overloaded.\"\n\n\"Give us the money to fix it.\"\n\n@WatcherGuru",
+    "caption": "🇺🇸 US Transportation Secretary Sean Duffy says FAA nationwide ground stop was due to \"an incredibly old air traffic system\" that was \"overloaded.\"\n\n\"Give us the money to fix it.\"",
+    "date": "2026-11-14 06:06:30",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16025,
+    "original_text": "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.\n\n@WatcherGuru",
+    "caption": "Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
+    "date": "2026-11-14 06:06:33",
+    "status": "published",
+    "zernio_post_id": "6af7fa6aea17d9b985248230",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121484934153957802",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfthhbajCRF",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16026,
+    "original_text": "JUST IN: Crypto is crashing\n\n$BTC falls under $67,000\n$ETH falls under $1,900\n$XRP falls under $1.00\n$SOL falls under $75\n\nOver $330,000,000 liquidated from the cryptocurrency market in the past 2 hours\n\n@WatcherGuru",
+    "caption": "Crypto is crashing\n\n$BTC falls under $67,000\n$ETH falls under $1,900\n$XRP falls under $1.00\n$SOL falls under $75\n\nOver $330,000,000 liquidated from the cryptocurrency market in the past 2 hours",
+    "date": "2026-11-14 06:06:57",
+    "status": "partial",
+    "zernio_post_id": "6af7fa86ea17d9b985248317",
+    "platforms": {
+      "twitter": {
+        "status": "failed",
+        "url": null,
+        "error": "X (Twitter) rejected this post: posts are limited to one cashtag ($SYMBOL) per tweet. Remove additional cashtags and try again."
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfthmH-DE5C",
+        "error": null
+      }
+    }
   }
 ]
