@@ -261,5 +261,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16030,
+    "original_text": "JUST IN: Elon Musk officially signs petition to reinstate Jensen Huang as Nvidia $NVDA CEO.\n\n@WatcherGuru",
+    "caption": "Elon Musk officially signs petition to reinstate Jensen Huang as Nvidia $NVDA CEO.",
+    "date": "2026-11-14 15:00:54",
+    "status": "published",
+    "zernio_post_id": "6af877a91b05c53e7a645888",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121619441712570462",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfues9EgLwu",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16032,
+    "original_text": "JUST IN: Bitcoin $BTC crashes under $66,000 as $205,000,000 is liquidated from the crypto market in the past 60 minutes.\n\n@WatcherGuru",
+    "caption": "Bitcoin $BTC crashes under $66,000 as $205,000,000 is liquidated from the crypto market in the past 60 minutes.",
+    "date": "2026-11-14 15:01:31",
+    "status": "published",
+    "zernio_post_id": "6af877cd1b05c53e7a6459fc",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121619565239017954",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfuevv5AEXA",
+        "error": null
+      }
+    }
   }
 ]
