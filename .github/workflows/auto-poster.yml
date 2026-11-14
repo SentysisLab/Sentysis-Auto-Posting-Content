@@ -12,7 +12,8 @@ on:
         default: false
   # Hourly at :17: posts the newest 2 WatcherGuru posts (older ones that hour are skipped).
   schedule:
-    - cron: "17 * * * *"   # :17 past each hour; GitHub often drops :00 runs
+        - cron: "23 * * * *"
+   # :23 past each hour; GitHub often drops :00 runs
 
 permissions:
   contents: write
