@@ -501,5 +501,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16047,
+    "original_text": "JUST IN: Bitcoin turns green and reclaims $65,000.\n\n$130 million shorts liquidated.\n\n@WatcherGuru",
+    "caption": "Bitcoin turns green and reclaims $65,000.\n\n$130 million shorts liquidated.",
+    "date": "2026-11-15 04:00:50",
+    "status": "published",
+    "zernio_post_id": "6af92e738903f7e7c7e04aa9",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121815684090822763",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfv37mjCHLg",
+        "error": null
+      }
+    }
   }
 ]
