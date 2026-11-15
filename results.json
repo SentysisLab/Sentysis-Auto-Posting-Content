@@ -521,5 +521,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16048,
+    "original_text": "JUST IN: 🇺🇸 Treasury Secretary Bessent says Nvidia $NVDA needs to look outside the company for its next CEO following chip export-spying scandal.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Treasury Secretary Bessent says Nvidia $NVDA needs to look outside the company for its next CEO following chip export-spying scandal.",
+    "date": "2026-11-15 16:00:43",
+    "status": "published",
+    "zernio_post_id": "6af9d72c6245ca3e0a5c4af5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121996843353555305",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfxKT3xjaJg",
+        "error": null
+      }
+    }
   }
 ]
