@@ -541,5 +541,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16049,
+    "original_text": "JUST IN: Elon Musk calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Elon Musk calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.",
+    "date": "2026-11-15 17:00:43",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16051,
+    "original_text": "JUST IN: Binance founder CZ says Binance has not sold any crypto and he recently bought more.\n\n\"Mid-long term, crypto will grow.\"\n\n@WatcherGuru",
+    "caption": "Binance founder CZ says Binance has not sold any crypto and he recently bought more.\n\n\"Mid-long term, crypto will grow.\"",
+    "date": "2026-11-15 17:00:47",
+    "status": "published",
+    "zernio_post_id": "6af9e542369cc92101e43423",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122012067821474045",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfxRPG_AKX9",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16053,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 US investigating whether Nvidia $NVDA illegally sold restricted AI chips to China.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 US investigating whether Nvidia $NVDA illegally sold restricted AI chips to China.",
+    "date": "2026-11-15 17:01:36",
+    "status": "published",
+    "zernio_post_id": "6af9e573b570afa2347e21bb",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122012185891086487",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfxRTXSkeha",
+        "error": null
+      }
+    }
   }
 ]
