@@ -481,5 +481,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16045,
+    "original_text": "JUST IN: 🇺🇸 Democrats consider raising taxes on Americans to fund multitrillion-dollar spending agenda in 2027.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Democrats consider raising taxes on Americans to fund multitrillion-dollar spending agenda in 2027.",
+    "date": "2026-11-15 03:00:53",
+    "status": "published",
+    "zernio_post_id": "6af92067347f539f456345c2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121800626963181649",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfvxG90CjZV",
+        "error": null
+      }
+    }
   }
 ]
