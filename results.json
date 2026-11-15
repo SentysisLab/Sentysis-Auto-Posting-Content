@@ -461,5 +461,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16044,
+    "original_text": "JUST IN: Bitcoin crashes under $63,000\n\n@WatcherGuru",
+    "caption": "Bitcoin crashes under $63,000",
+    "date": "2026-11-15 02:00:45",
+    "status": "published",
+    "zernio_post_id": "6af9124d48ae41259688df5c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2121785466227655032",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfvqL5viG1H",
+        "error": null
+      }
+    }
   }
 ]
