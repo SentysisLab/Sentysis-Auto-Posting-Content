@@ -588,5 +588,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16055,
+    "original_text": "JUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru",
+    "caption": "Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.",
+    "date": "2026-11-15 20:00:49",
+    "status": "published",
+    "zernio_post_id": "6afa0f7428f3dbdca2b827ab",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122057305533423977",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfxl0mSkej0",
+        "error": null
+      }
+    }
   }
 ]
