@@ -668,5 +668,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16060,
+    "original_text": "JUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
+    "caption": "Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.",
+    "date": "2026-11-16 14:00:48",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16061,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 US blocks China from remotely accessing advanced AI chips.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 US blocks China from remotely accessing advanced AI chips.",
+    "date": "2026-11-16 14:00:48",
+    "status": "published",
+    "zernio_post_id": "6afb0c90b2ee0e4fa8277670",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122329062433587481",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfzhYtRiHE6",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16062,
+    "original_text": "JUST IN: 🇺🇸 NYSE parent company ICE considers becoming a validator on Solana $SOL.\n\n@WatcherGuru",
+    "caption": "🇺🇸 NYSE parent company ICE considers becoming a validator on Solana $SOL.",
+    "date": "2026-11-16 14:01:16",
+    "status": "published",
+    "zernio_post_id": "6afb0cacfeab3647997d18e4",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122329166074782202",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfzhb2vggr3",
+        "error": null
+      }
+    }
   }
 ]
