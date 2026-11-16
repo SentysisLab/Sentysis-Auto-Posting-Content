@@ -715,5 +715,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16063,
+    "original_text": "JUST IN: 🇺🇸 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.",
+    "date": "2026-11-16 15:00:52",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16065,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.",
+    "date": "2026-11-16 15:00:52",
+    "status": "publishing",
+    "zernio_post_id": "6afb1aa44a545d0b7f98d15c",
+    "platforms": {
+      "twitter": {
+        "status": "pending",
+        "url": null,
+        "error": null
+      },
+      "threads": {
+        "status": "pending",
+        "url": null,
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16066,
+    "original_text": "JUST IN: 🇺🇸 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.",
+    "date": "2026-11-16 15:01:36",
+    "status": "published",
+    "zernio_post_id": "6afb1ad07ed1d1c9cc522d61",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122344352328409447",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfzoVrTjDzc",
+        "error": null
+      }
+    }
   }
 ]
