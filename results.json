@@ -902,5 +902,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16081,
+    "original_text": "JUST IN: 🇺🇸 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
+    "caption": "🇺🇸 $1.4 trillion wiped out from the US stock market today.",
+    "date": "2026-11-16 22:00:51",
+    "status": "published",
+    "zernio_post_id": "6afb7d15824c6fea5ad76dcd",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122449865527493015",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0YXyziMbk",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16082,
+    "original_text": "JUST IN: 🇰🇷 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.\n\n@WatcherGuru",
+    "caption": "🇰🇷 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.",
+    "date": "2026-11-16 22:01:51",
+    "status": "published",
+    "zernio_post_id": "6afb7d4f7d6007ff6cd2e8a1",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122450103055077378",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0YbgxiAEZ",
+        "error": null
+      }
+    }
   }
 ]
