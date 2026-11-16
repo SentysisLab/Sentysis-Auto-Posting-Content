@@ -628,5 +628,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16058,
+    "original_text": "JUST IN: 🇺🇸 President Trump to designate Nvidia $NVDA as AI \"National Champions.\"\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump to designate Nvidia $NVDA as AI \"National Champions.\"",
+    "date": "2026-11-16 05:00:43",
+    "status": "published",
+    "zernio_post_id": "6afa8dfb20d5c6532292c311",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122193144259187170",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfyjlWICISJ",
+        "error": null
+      }
+    }
   }
 ]
