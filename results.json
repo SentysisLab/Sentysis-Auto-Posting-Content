@@ -862,5 +862,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16078,
+    "original_text": "JUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
+    "caption": "Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.",
+    "date": "2026-11-16 20:00:46",
+    "status": "published",
+    "zernio_post_id": "6afb60ee8dff7aebc0f18a64",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122419668564468027",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0Klq8CNRF",
+        "error": null
+      }
+    }
   }
 ]
