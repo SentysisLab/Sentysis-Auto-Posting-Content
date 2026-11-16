@@ -822,5 +822,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16074,
+    "original_text": "JUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.",
+    "date": "2026-11-16 19:00:51",
+    "status": "published",
+    "zernio_post_id": "6afb52e433a179535fa2ef1e",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122404567144923615",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0DyrSnD4U",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16075,
+    "original_text": "JUST IN: 🇺🇸 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.",
+    "date": "2026-11-16 19:01:51",
+    "status": "published",
+    "zernio_post_id": "6afb5324408e2fb69a032fdb",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122404934234599726",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0D5mUjjLP",
+        "error": null
+      }
+    }
   }
 ]
