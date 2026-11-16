@@ -727,18 +727,18 @@
     "telegram_id": 16065,
     "original_text": "JUST IN: 🇺🇸🇨🇳 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru",
     "caption": "🇺🇸🇨🇳 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.",
-    "date": "2026-11-16 15:00:52",
-    "status": "publishing",
+    "date": "2026-11-16 16:00:50",
+    "status": "published",
     "zernio_post_id": "6afb1aa44a545d0b7f98d15c",
     "platforms": {
       "twitter": {
-        "status": "pending",
-        "url": null,
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122345140173832396",
         "error": null
       },
       "threads": {
-        "status": "pending",
-        "url": null,
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfzouITilk6",
         "error": null
       }
     }
@@ -759,6 +759,26 @@
       "threads": {
         "status": "published",
         "url": "https://www.threads.com/@sentysislabs/post/DfzoVrTjDzc",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16067,
+    "original_text": "JUST IN: Zelle selects Solana to expand international payments using crypto stablecoins.\n\n@WatcherGuru",
+    "caption": "Zelle selects Solana to expand international payments using crypto stablecoins.",
+    "date": "2026-11-16 16:00:55",
+    "status": "published",
+    "zernio_post_id": "6afb28baa5c4509534c8f0f6",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122359298437025867",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfzvJs_DEuy",
         "error": null
       }
     }
