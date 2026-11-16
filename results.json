@@ -882,5 +882,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16079,
+    "original_text": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
+    "caption": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
+    "date": "2026-11-16 21:00:59",
+    "status": "published",
+    "zernio_post_id": "6afb6f0e3043b28f322d6da7",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122434806000586837",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0RfDuDhV0",
+        "error": null
+      }
+    }
   }
 ]
