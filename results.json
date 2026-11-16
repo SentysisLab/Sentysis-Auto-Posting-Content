@@ -782,5 +782,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16070,
+    "original_text": "JUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru",
+    "caption": "OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.",
+    "date": "2026-11-16 18:00:52",
+    "status": "published",
+    "zernio_post_id": "6afb44d7d272704644d41b3b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122389526014308570",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfz85TwgCIw",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16072,
+    "original_text": "BREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.",
+    "date": "2026-11-16 18:02:07",
+    "status": "published",
+    "zernio_post_id": "6afb45225ac6fd35026196ce",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122389993620410757",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Dfz9Ehgkcec",
+        "error": null
+      }
+    }
   }
 ]
