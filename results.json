@@ -648,5 +648,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16059,
+    "original_text": "JUST IN: Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0\n\n@WatcherGuru",
+    "caption": "Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0",
+    "date": "2026-11-16 11:23:22",
+    "status": "published",
+    "zernio_post_id": "6afae7ab68ba4690ca4fed99",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122289448247312388",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DfzPXz4CInJ",
+        "error": null
+      }
+    }
   }
 ]
