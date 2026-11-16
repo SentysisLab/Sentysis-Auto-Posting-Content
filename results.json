@@ -942,5 +942,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16083,
+    "original_text": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
+    "caption": "United Airlines $UAL experiences widespread system outage.",
+    "date": "2026-11-16 23:00:42",
+    "status": "published",
+    "zernio_post_id": "6afb8b1a604e65386a8033f2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122464913117331817",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0fKgIiGs9",
+        "error": null
+      }
+    }
   }
 ]
