@@ -1170,5 +1170,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16104,
+    "original_text": "Watcher Guru News Terminal is Officially Live.\n\nMarket-moving headlines, the second it breaks, in one feed.\n\nSign up now: https://watcherguru.com",
+    "caption": "Watcher Guru News Terminal is Officially Live.\n\nMarket-moving headlines, the second it breaks, in one feed.\n\nSign up now:",
+    "date": "2026-11-17 17:01:06",
+    "status": "published",
+    "zernio_post_id": "6afc8855df4a7095b3823a55",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122736863890870667",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2a3AYB6W_",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16105,
+    "original_text": "JUST IN: Grand Theft Auto VI (GTA 6) surpasses an estimated $1,500,000,000 in revenue two days before its official release.\n\n@WatcherGuru",
+    "caption": "Grand Theft Auto VI (GTA 6) surpasses an estimated $1,500,000,000 in revenue two days before its official release.",
+    "date": "2026-11-17 17:03:54",
+    "status": "published",
+    "zernio_post_id": "6afc88fdac11e76d4ab056ec",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122737529891819638",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2bKUjCqGE",
+        "error": null
+      }
+    }
   }
 ]
