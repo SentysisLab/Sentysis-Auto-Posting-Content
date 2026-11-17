@@ -1230,5 +1230,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16108,
+    "original_text": "JUST IN: 🇪🇺 Europe's largest natural gas supplier 'Equinor' says it is under cyberattack.\n\n@WatcherGuru",
+    "caption": "🇪🇺 Europe's largest natural gas supplier 'Equinor' says it is under cyberattack.",
+    "date": "2026-11-17 20:00:49",
+    "status": "published",
+    "zernio_post_id": "6afcb27146410c06893fcd85",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122782031453061164",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2vX29INiv",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16109,
+    "original_text": "JUST IN: New OpenAI model discovers 35 vulnerabilities in Apple devices, including flaws allowing hackers to take control of iPhones and Macs.\n\n@WatcherGuru",
+    "caption": "New OpenAI model discovers 35 vulnerabilities in Apple devices, including flaws allowing hackers to take control of iPhones and Macs.",
+    "date": "2026-11-17 20:01:03",
+    "status": "published",
+    "zernio_post_id": "6afcb27f4ebdf1224e4b0de4",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122782092517843256",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2vZnslYA-",
+        "error": null
+      }
+    }
   }
 ]
