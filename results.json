@@ -1337,5 +1337,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16117,
+    "original_text": "JUST IN: Nvidia $NVDA board says it has no plans to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA board says it has no plans to reinstate Jensen Huang as CEO.",
+    "date": "2026-11-17 23:00:54",
+    "status": "published",
+    "zernio_post_id": "6afcdca85a52f409d31e2e5f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122827368230211586",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3EAKJDBv6",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16119,
+    "original_text": "Timeline of Events:\n\n• Nov. 12: Microsoft 365 hit with a major service outage.\n\n• Nov. 13: FAA issues a nationwide ground stop, suspending all US flights.\n\n• Nov. 16: Major US banks, including Bank of America, JPMorgan Chase, and Wells Fargo, hit with widespread online banking outages.\n\n• Nov. 16: United Airlines hit with widespread system outage.\n\n• Nov. 17: $13 trillion asset manager Charles Schwab suffered temporary website outage.\n\n• Nov. 17: Apple $AAPL services experienced outages, including Apple Pay, iCloud, App Store, and more.\n\n• Nov. 17: Europe's largest natural gas supplier 'Equinor' hit with cyberattack.\n\n@WatcherGuru",
+    "caption": "Timeline of Events:\n\n• Nov. 12: Microsoft 365 hit with a major service outage.\n\n• Nov. 13: FAA issues a nationwide ground stop, suspending all US flights.\n\n• Nov. 16: Major US banks, including Bank of America, JPMorgan Chase, and Wells Fargo, hit with widespread online banking outages.\n\n• Nov. 16: United Airlines hit with widespread system outage.\n\n• Nov. 17: $13 trillion asset manager Charles Schwab suffered temporary website outage.\n\n• Nov. 17: Apple $AAPL services experienced outages, including Apple Pay, iCloud, App Store, and more.\n\n• Nov. 17: Europe's largest natural gas supplier 'Equinor' hit with cyberattack.",
+    "date": "2026-11-17 23:01:28",
+    "status": "published",
+    "zernio_post_id": "6afcdcc8e2fddb74cf82da6c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122827495221100687",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3EDFxAnCr",
+        "error": null
+      }
+    }
   }
 ]
