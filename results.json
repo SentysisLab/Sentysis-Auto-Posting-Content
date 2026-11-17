@@ -1109,5 +1109,66 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16098,
+    "original_text": "JUST IN: 🇭🇰 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.\n\n@WatcherGuru",
+    "caption": "🇭🇰 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.",
+    "date": "2026-11-17 16:00:49",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16099,
+    "original_text": "JUST IN: 🇺🇸 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.",
+    "date": "2026-11-17 16:00:49",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16100,
+    "original_text": "JUST IN: $13 trillion asset manager Charles Schwab's website goes down.\n\n@WatcherGuru",
+    "caption": "$13 trillion asset manager Charles Schwab's website goes down.",
+    "date": "2026-11-17 16:00:49",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16101,
+    "original_text": "JUST IN: 🇺🇸 Highly classified US NSA national security communications network suffers outage.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Highly classified US NSA national security communications network suffers outage.",
+    "date": "2026-11-17 16:00:49",
+    "status": "published",
+    "zernio_post_id": "6afc7a3259167f774e0e5856",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122721636222697740",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2T6GUiki6",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16102,
+    "original_text": "JUST IN: Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"",
+    "date": "2026-11-17 16:01:09",
+    "status": "published",
+    "zernio_post_id": "6afc7a480d466a35a2abfcb5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122721742137262250",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2T-F_Dega",
+        "error": null
+      }
+    }
   }
 ]
