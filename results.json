@@ -1089,5 +1089,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16096,
+    "original_text": "JUST IN: Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.\n\n@WatcherGuru",
+    "caption": "Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.",
+    "date": "2026-11-17 15:00:50",
+    "status": "published",
+    "zernio_post_id": "6afc6c25731ddde3e130b8c4",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122706559234925005",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2NFTjAolj",
+        "error": null
+      }
+    }
   }
 ]
