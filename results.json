@@ -1210,5 +1210,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16107,
+    "original_text": "JUST IN: 🇺🇸 Pentagon fails 9th consecutive financial audit, unable to fully verify over $2 trillion in assets.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Pentagon fails 9th consecutive financial audit, unable to fully verify over $2 trillion in assets.",
+    "date": "2026-11-17 19:00:46",
+    "status": "published",
+    "zernio_post_id": "6afca45e1d3ba3527a642998",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122766921024033089",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2ogGwiBSG",
+        "error": null
+      }
+    }
   }
 ]
