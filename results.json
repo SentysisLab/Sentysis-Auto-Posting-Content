@@ -1022,5 +1022,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16088,
+    "original_text": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
+    "caption": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
+    "date": "2026-11-17 13:00:52",
+    "status": "published",
+    "zernio_post_id": "6afc5004c4bcb8ef75a46033",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122676348254568654",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df1_UJbDHL6",
+        "error": null
+      }
+    }
   }
 ]
