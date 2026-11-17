@@ -1270,5 +1270,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16110,
+    "original_text": "JUST IN: Circle partners with Citi Bank and World Bank Group to use $USDC to send money worldwide.\n\n@WatcherGuru",
+    "caption": "Circle partners with Citi Bank and World Bank Group to use $USDC to send money worldwide.",
+    "date": "2026-11-17 21:00:42",
+    "status": "published",
+    "zernio_post_id": "6afcc07b3cc437138cd1580c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122797109178925192",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df22OsniBik",
+        "error": null
+      }
+    }
   }
 ]
