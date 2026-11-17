@@ -1002,5 +1002,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16087,
+    "original_text": "JUST IN: Senior Nvidia $NVDA director warns board the company could lose \"irreplaceable talent\" if Jensen Huang is not reinstated as CEO.\n\n@WatcherGuru",
+    "caption": "Senior Nvidia $NVDA director warns board the company could lose \"irreplaceable talent\" if Jensen Huang is not reinstated as CEO.",
+    "date": "2026-11-17 03:00:48",
+    "status": "published",
+    "zernio_post_id": "6afbc361a01a191b58d989af",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122525339192586247",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df06pIRCAR9",
+        "error": null
+      }
+    }
   }
 ]
