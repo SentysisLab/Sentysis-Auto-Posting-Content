@@ -982,5 +982,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16086,
+    "original_text": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
+    "caption": "Google $GOOGL says \"the era of autonomous attacks has arrived.\"",
+    "date": "2026-11-17 02:00:45",
+    "status": "published",
+    "zernio_post_id": "6afbb54e1dece64099163883",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122510225785696494",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0zxUTiGuM",
+        "error": null
+      }
+    }
   }
 ]
