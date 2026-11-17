@@ -962,5 +962,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16084,
+    "original_text": "JUST IN: 🇺🇸 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru",
+    "caption": "🇺🇸 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.",
+    "date": "2026-11-17 01:00:51",
+    "status": "published",
+    "zernio_post_id": "6afba7450397a85c20b2023a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122495163373158551",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df0s8nuiDNW",
+        "error": null
+      }
+    }
   }
 ]
