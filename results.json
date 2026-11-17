@@ -1042,5 +1042,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16089,
+    "original_text": "JUST IN: 🇿🇦 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
+    "caption": "🇿🇦 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
+    "date": "2026-11-17 14:00:45",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16091,
+    "original_text": "JUST IN: Google and Amazon to own a combined 28% of Anthropic after its IPO.\n\n@WatcherGuru",
+    "caption": "Google and Amazon to own a combined 28% of Anthropic after its IPO.",
+    "date": "2026-11-17 14:00:49",
+    "status": "published",
+    "zernio_post_id": "6afc5e161c47db50feb0e822",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122691470490550590",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2GPhViJF5",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16094,
+    "original_text": "JUST IN: 🇺🇸 Michael Saylor says banks are bringing Bitcoin to their clients.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Michael Saylor says banks are bringing Bitcoin to their clients.",
+    "date": "2026-11-17 14:01:52",
+    "status": "published",
+    "zernio_post_id": "6afc5e53a07e167d453c6337",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122691722576536056",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df2GUcvgLGX",
+        "error": null
+      }
+    }
   }
 ]
