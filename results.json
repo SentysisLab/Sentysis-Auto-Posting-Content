@@ -1290,5 +1290,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16111,
+    "original_text": "JUST IN: 🇺🇸 SEC launches investigation into Nvidia $NVDA following resignation of Jensen Huang.\n\n@WatcherGuru",
+    "caption": "🇺🇸 SEC launches investigation into Nvidia $NVDA following resignation of Jensen Huang.",
+    "date": "2026-11-17 22:00:49",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16114,
+    "original_text": "JUST IN: Nvidia $NVDA surges over 5% after reporting $115.84 billion in revenue for Q3, beating expectations.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA surges over 5% after reporting $115.84 billion in revenue for Q3, beating expectations.",
+    "date": "2026-11-17 22:00:52",
+    "status": "published",
+    "zernio_post_id": "6afcce96b1b870fb05758dae",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122812258644324475",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df29J_0AlZN",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16115,
+    "original_text": "JUST IN: Nvidia $NVDA projects $130,000,000,000 in revenue for Q4.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA projects $130,000,000,000 in revenue for Q4.",
+    "date": "2026-11-17 22:01:48",
+    "status": "published",
+    "zernio_post_id": "6afccecfeb6eca9fc36f0520",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122812501255393530",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df29PlBDJhI",
+        "error": null
+      }
+    }
   }
 ]
