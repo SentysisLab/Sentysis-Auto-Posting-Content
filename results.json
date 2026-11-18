@@ -1477,5 +1477,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16126,
+    "original_text": "JUST IN: 🇨🇳🇺🇸 Chinese military is actively seeking Nvidia's $NVDA most advanced AI chips to strengthen its military capabilities.\n\n@WatcherGuru",
+    "caption": "🇨🇳🇺🇸 Chinese military is actively seeking Nvidia's $NVDA most advanced AI chips to strengthen its military capabilities.",
+    "date": "2026-11-18 11:00:52",
+    "status": "published",
+    "zernio_post_id": "6afd85645d28d7ad4097d975",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123008538461016188",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df4WYHgjfkE",
+        "error": null
+      }
+    }
   }
 ]
