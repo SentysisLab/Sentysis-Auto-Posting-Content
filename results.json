@@ -1537,5 +1537,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16131,
+    "original_text": "JUST IN: Jeff Bezos warns Nvidia $NVDA that hiring an outside CEO would have a \"vanishingly small chance of success.\"\n\n@WatcherGuru",
+    "caption": "Jeff Bezos warns Nvidia $NVDA that hiring an outside CEO would have a \"vanishingly small chance of success.\"",
+    "date": "2026-11-18 15:00:53",
+    "status": "published",
+    "zernio_post_id": "6afdbda71286c74b75835a75",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123068959117156729",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df4x399igt3",
+        "error": null
+      }
+    }
   }
 ]
