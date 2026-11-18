@@ -1617,5 +1617,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16138,
+    "original_text": "JUST IN: Billionaire Bill Ackman says Nvidia $NVDA board is acting against shareholders' best interests by refusing to reinstate Jensen Huang as CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Billionaire Bill Ackman says Nvidia $NVDA board is acting against shareholders' best interests by refusing to reinstate Jensen Huang as CEO.\n\n📰",
+    "date": "2026-11-18 18:00:53",
+    "status": "published",
+    "zernio_post_id": "6afde7d86424a2eb619878d4",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123114260867821904",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5Gd0yjRw4",
+        "error": null
+      }
+    }
   }
 ]
