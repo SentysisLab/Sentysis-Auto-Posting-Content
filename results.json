@@ -1677,5 +1677,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16144,
+    "original_text": "JUST IN: 🇺🇸 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.",
+    "date": "2026-11-18 20:00:44",
+    "status": "published",
+    "zernio_post_id": "6afe03ecf1f37069939af894",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123144400251269631",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5UKGuFpaR",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16145,
+    "original_text": "JUST IN: Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 200,000 signatures.\n\n@WatcherGuru",
+    "caption": "Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 200,000 signatures.",
+    "date": "2026-11-18 20:00:56",
+    "status": "published",
+    "zernio_post_id": "6afe03f9f1f37069939af8f9",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123144452189421726",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5ULngForJ",
+        "error": null
+      }
+    }
   }
 ]
