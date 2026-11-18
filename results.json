@@ -1417,5 +1417,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16122,
+    "original_text": "JUST IN: Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares.",
+    "date": "2026-11-18 04:00:46",
+    "status": "published",
+    "zernio_post_id": "6afd22f0c268b2a11662287c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122902830293917836",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3mUW6jDf7",
+        "error": null
+      }
+    }
   }
 ]
