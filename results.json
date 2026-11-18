@@ -1437,5 +1437,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16124,
+    "original_text": "JUST IN: 🇷🇺 Russian President Putin says tariffs can no longer destroy the economies of competing nations.\n\n@WatcherGuru",
+    "caption": "🇷🇺 Russian President Putin says tariffs can no longer destroy the economies of competing nations.",
+    "date": "2026-11-18 05:00:42",
+    "status": "published",
+    "zernio_post_id": "6afd30fb327bacbafbc593ab",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122917902869258322",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3tKSkiE8O",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16125,
+    "original_text": "JUST IN: Grand Theft Auto VI (GTA 6) officially releases in less than 24 hours.\n\n@WatcherGuru",
+    "caption": "Grand Theft Auto VI (GTA 6) officially releases in less than 24 hours.",
+    "date": "2026-11-18 05:01:13",
+    "status": "published",
+    "zernio_post_id": "6afd311a89b0bbe4316e8279",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122918059199320156",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3tQYwtOcE",
+        "error": null
+      }
+    }
   }
 ]
