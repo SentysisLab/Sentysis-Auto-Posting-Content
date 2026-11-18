@@ -1397,5 +1397,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16121,
+    "original_text": "JUST IN: Gold crashes under $3,800 for the first time since September 2025.\n\n@WatcherGuru",
+    "caption": "Gold crashes under $3,800 for the first time since September 2025.",
+    "date": "2026-11-18 03:00:47",
+    "status": "published",
+    "zernio_post_id": "6afd14e06d9625c4a0fc7d0d",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122887728958230569",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3fcQZCgmg",
+        "error": null
+      }
+    }
   }
 ]
