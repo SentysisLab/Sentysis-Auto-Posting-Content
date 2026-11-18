@@ -1597,5 +1597,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16136,
+    "original_text": "JUST IN: Gold and Silver are crashing\n\nGold falls under $3,745\nSilver falls under $45\n\n$800,000,0000,000 in combined market value has been erased today.\n\n@WatcherGuru",
+    "caption": "Gold and Silver are crashing\n\nGold falls under $3,745\nSilver falls under $45\n\n$800,000,0000,000 in combined market value has been erased today.",
+    "date": "2026-11-18 17:00:49",
+    "status": "published",
+    "zernio_post_id": "6afdd9c3a3cab67ff8028073",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123099139722338531",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df4_m2hikUM",
+        "error": null
+      }
+    }
   }
 ]
