@@ -1717,5 +1717,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16146,
+    "original_text": "JUST IN: Anthropic to IPO tomorrow at $83 per share, valuing the company at $1.5 trillion, Bloomberg reports.\n\n@WatcherGuru",
+    "caption": "Anthropic to IPO tomorrow at $83 per share, valuing the company at $1.5 trillion, Bloomberg reports.",
+    "date": "2026-11-18 22:00:48",
+    "status": "published",
+    "zernio_post_id": "6afe20100286cad6581c772a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123174615816040808",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5h5oXDXxr",
+        "error": null
+      }
+    }
   }
 ]
