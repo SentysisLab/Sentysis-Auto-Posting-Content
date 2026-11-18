@@ -1557,5 +1557,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16133,
+    "original_text": "JUST IN: Some Nvidia $NVDA board members are pushing to bring back Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Some Nvidia $NVDA board members are pushing to bring back Jensen Huang as CEO.",
+    "date": "2026-11-18 16:00:52",
+    "status": "published",
+    "zernio_post_id": "6afdcbb4b566db0dbe237d01",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123084033529614832",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df44tVriKnF",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16134,
+    "original_text": "JUST IN: Bitcoin falls under $63,000.\n\n@WatcherGuru",
+    "caption": "Bitcoin falls under $63,000.",
+    "date": "2026-11-18 16:01:13",
+    "status": "published",
+    "zernio_post_id": "6afdcbccb566db0dbe237d5f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123084143814676690",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df44yItCPya",
+        "error": null
+      }
+    }
   }
 ]
