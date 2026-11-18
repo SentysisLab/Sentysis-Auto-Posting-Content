@@ -1637,5 +1637,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16140,
+    "original_text": "JUST IN: Telegram founder Pavel Durov calls for Nvidia $NVDA board to bring back Jensen Huang as CEO.\n\n@WatcherGuru",
+    "caption": "Telegram founder Pavel Durov calls for Nvidia $NVDA board to bring back Jensen Huang as CEO.",
+    "date": "2026-11-18 19:00:49",
+    "status": "published",
+    "zernio_post_id": "6afdf5e3e37b4a9b33d2748b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123129339419955498",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5NVuxiqLV",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16142,
+    "original_text": "JUST IN: PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.\n\n@WatcherGuru",
+    "caption": "PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.",
+    "date": "2026-11-18 19:01:33",
+    "status": "published",
+    "zernio_post_id": "6afdf60f2a13d938c52732a2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123129520387391637",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5NaL1kcy7",
+        "error": null
+      }
+    }
   }
 ]
