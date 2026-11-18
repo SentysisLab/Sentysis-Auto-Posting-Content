@@ -1377,5 +1377,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16120,
+    "original_text": "JUST IN: JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.\n\n@WatcherGuru",
+    "caption": "JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.",
+    "date": "2026-11-18 00:00:48",
+    "status": "published",
+    "zernio_post_id": "6afceab04e0d400db7ac608e",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2122842427543138688",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df3K1pIgn6T",
+        "error": null
+      }
+    }
   }
 ]
