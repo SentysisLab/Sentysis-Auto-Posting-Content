@@ -1917,5 +1917,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16163,
+    "original_text": "JUST IN: GTA 6 sets new record as the highest-rated video game of all time.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "GTA 6 sets new record as the highest-rated video game of all time.\n\n📰",
+    "date": "2026-11-19 16:00:53",
+    "status": "published",
+    "zernio_post_id": "6aff1d37dadbd80d8914eeac",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123446439401378078",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7dg6YjFLG",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16164,
+    "original_text": "JUST IN: Hackers leak personal data of thousands of Visa, Mastercard and JPMorgan Chase customers following cyberattack.\n\n@WatcherGuru",
+    "caption": "Hackers leak personal data of thousands of Visa, Mastercard and JPMorgan Chase customers following cyberattack.",
+    "date": "2026-11-19 16:01:32",
+    "status": "published",
+    "zernio_post_id": "6aff1d5da8c4dfc44ce226ab",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123446600227856794",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7dlQ5Cm-i",
+        "error": null
+      }
+    }
   }
 ]
