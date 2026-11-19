@@ -1877,5 +1877,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16161,
+    "original_text": "JUST IN: 🇺🇸 JPMorgan excepts the Fed to raise interest rates at its next three meetings.\n\n@WatcherGuru",
+    "caption": "🇺🇸 JPMorgan excepts the Fed to raise interest rates at its next three meetings.",
+    "date": "2026-11-19 15:00:49",
+    "status": "published",
+    "zernio_post_id": "6aff0f21fa804e3f11de2eac",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123431309762609594",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7WofjDWAq",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16162,
+    "original_text": "JUST IN: 🇺🇸 Chase Bank warns of potential data breach following cyberattack.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Chase Bank warns of potential data breach following cyberattack.",
+    "date": "2026-11-19 15:01:03",
+    "status": "published",
+    "zernio_post_id": "6aff0f2faf8f291ad3b5233d",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123431368923156763",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7WqRMgjsy",
+        "error": null
+      }
+    }
   }
 ]
