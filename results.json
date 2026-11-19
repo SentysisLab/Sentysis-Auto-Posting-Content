@@ -2037,5 +2037,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16173,
+    "original_text": "JUST IN: Bitcoin falls under $62,000\n\n@WatcherGuru",
+    "caption": "Bitcoin falls under $62,000",
+    "date": "2026-11-19 21:00:49",
+    "status": "published",
+    "zernio_post_id": "6aff63835a28012838cc4db8",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123521919689412701",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7_1qriDL1",
+        "error": null
+      }
+    }
   }
 ]
