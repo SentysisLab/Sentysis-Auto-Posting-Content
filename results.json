@@ -1957,5 +1957,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16165,
+    "original_text": "BREAKING: Claude AI developer Anthropic $ANT officially begins trading at $1.5 trillion market cap following IPO.\n\n@WatcherGuru",
+    "caption": "Claude AI developer Anthropic $ANT officially begins trading at $1.5 trillion market cap following IPO.",
+    "date": "2026-11-19 17:00:55",
+    "status": "published",
+    "zernio_post_id": "6aff2b4946c604e034bd031a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123461548836339815",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7kainAp_c",
+        "error": null
+      }
+    }
   }
 ]
