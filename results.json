@@ -1817,5 +1817,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16156,
+    "original_text": "JUST IN: 🇰🇷 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.\n\n🇺🇸 US\n🇨🇳 China\n🇩🇪 Germany\n🇰🇷 South Korea\n\n📰 https://watcherguru.com/\n\n@WatcherGuru",
+    "caption": "🇰🇷 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.\n\n🇺🇸 US\n🇨🇳 China\n🇩🇪 Germany\n🇰🇷 South Korea\n\n📰",
+    "date": "2026-11-19 07:01:41",
+    "status": "published",
+    "zernio_post_id": "6afe9ed64f6db1a8fec43c5d",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123310740165542250",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df6fzUxjc4S",
+        "error": null
+      }
+    }
   }
 ]
