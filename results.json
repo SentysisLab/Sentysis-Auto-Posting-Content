@@ -1777,5 +1777,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16153,
+    "original_text": "JUST IN: 🇺🇸 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"",
+    "date": "2026-11-19 02:00:50",
+    "status": "published",
+    "zernio_post_id": "6afe5854044ada9a77fc2d4c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123235037197865419",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df59aLiAvwn",
+        "error": null
+      }
+    }
   }
 ]
