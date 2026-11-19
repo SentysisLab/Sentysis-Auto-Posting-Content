@@ -2077,5 +2077,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16175,
+    "original_text": "JUST IN: 🇺🇸 California launches investigation into Nvidia $NVDA for potentially misleading investors.\n\n@WatcherGuru",
+    "caption": "🇺🇸 California launches investigation into Nvidia $NVDA for potentially misleading investors.",
+    "date": "2026-11-19 23:00:48",
+    "status": "published",
+    "zernio_post_id": "6aff7fa2d066abbc6c8ac840",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123552117243728003",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df8NlOxDW5Z",
+        "error": null
+      }
+    }
   }
 ]
