@@ -1757,5 +1757,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16150,
+    "original_text": "JUST IN: Elon Musk says Tesla $TSLA will launch a fully self-driving Model Y with no steering wheel or pedals.\n\n📰 https://watcherguru.com/\n\n@WatcherGuru",
+    "caption": "Elon Musk says Tesla $TSLA will launch a fully self-driving Model Y with no steering wheel or pedals.\n\n📰",
+    "date": "2026-11-19 01:00:49",
+    "status": "published",
+    "zernio_post_id": "6afe4a43976f3594c060bc91",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123219933538456044",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df52iTYiDCh",
+        "error": null
+      }
+    }
   }
 ]
