@@ -1797,5 +1797,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16155,
+    "original_text": "JUST IN: Grand Theft Auto VI (GTA 6) officially releases worldwide.\n\n@WatcherGuru",
+    "caption": "Grand Theft Auto VI (GTA 6) officially releases worldwide.",
+    "date": "2026-11-19 05:00:49",
+    "status": "published",
+    "zernio_post_id": "6afe82829409fa77aed53993",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123280327284068771",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df6R-WrgoyR",
+        "error": null
+      }
+    }
   }
 ]
