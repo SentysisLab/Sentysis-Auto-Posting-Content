@@ -1837,5 +1837,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16159,
+    "original_text": "JUST IN: 🇨🇳🇺🇸 Samsung and TSMC suspend some chip shipments to China following new US restrictions.\n\n@WatcherGuru",
+    "caption": "🇨🇳🇺🇸 Samsung and TSMC suspend some chip shipments to China following new US restrictions.",
+    "date": "2026-11-19 11:00:51",
+    "status": "published",
+    "zernio_post_id": "6afed6e7d5e2f9fd11351a2b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123370938171261236",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df67LTjiGYe",
+        "error": null
+      }
+    }
   }
 ]
