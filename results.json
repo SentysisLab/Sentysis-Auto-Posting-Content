@@ -2057,5 +2057,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16174,
+    "original_text": "JUST IN: Apple $AAPL is developing AI agent to rival OpenAI and Anthropic that can control devices, browse the web, and write code.\n\n@WatcherGuru",
+    "caption": "Apple $AAPL is developing AI agent to rival OpenAI and Anthropic that can control devices, browse the web, and write code.",
+    "date": "2026-11-19 22:00:47",
+    "status": "published",
+    "zernio_post_id": "6aff718f929cfb67d6ffb425",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123536999235698699",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df8GsWeiO4J",
+        "error": null
+      }
+    }
   }
 ]
