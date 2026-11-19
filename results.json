@@ -1857,5 +1857,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16160,
+    "original_text": "JUST IN: IMF chief warns rising AI demand will push global interest rates higher.\n\n@WatcherGuru",
+    "caption": "IMF chief warns rising AI demand will push global interest rates higher.",
+    "date": "2026-11-19 14:00:50",
+    "status": "published",
+    "zernio_post_id": "6aff011277fdc89646dee061",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123416216333082875",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7PxI0CPsV",
+        "error": null
+      }
+    }
   }
 ]
