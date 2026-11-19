@@ -1977,5 +1977,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16167,
+    "original_text": "JUST IN: Over 400 Anthropic employees are now worth more than $100,000,000 each following the $ANT IPO.\n\nAnthropic's seven co-founders are now worth over $20 billion each.\n\nThe average Anthropic employee is worth over $40 million.\n\n@WatcherGuru",
+    "caption": "Over 400 Anthropic employees are now worth more than $100,000,000 each following the $ANT IPO.\n\nAnthropic's seven co-founders are now worth over $20 billion each.\n\nThe average Anthropic employee is worth over $40 million.",
+    "date": "2026-11-19 18:01:22",
+    "status": "published",
+    "zernio_post_id": "6aff397866c4b7c70723bb31",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123476779717230980",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df7rUl8DbM1",
+        "error": null
+      }
+    }
   }
 ]
