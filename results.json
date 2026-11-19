@@ -1737,5 +1737,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16147,
+    "original_text": "JUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru",
+    "caption": "Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.",
+    "date": "2026-11-19 00:00:50",
+    "status": "published",
+    "zernio_post_id": "6afe3c3416f3e1768f629e2a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123204840025137536",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df5vp_rjMev",
+        "error": null
+      }
+    }
   }
 ]
