@@ -2177,5 +2177,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16181,
+    "original_text": "JUST IN: 🇨🇳 Chinese AI hacking tool reportedly allows anyone with an iPhone to launch cyberattacks.\n\n@WatcherGuru",
+    "caption": "🇨🇳 Chinese AI hacking tool reportedly allows anyone with an iPhone to launch cyberattacks.",
+    "date": "2026-11-20 12:00:51",
+    "status": "published",
+    "zernio_post_id": "6b0036736d472e5d36541cb5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123748410113015896",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df9m1RRDClg",
+        "error": null
+      }
+    }
   }
 ]
