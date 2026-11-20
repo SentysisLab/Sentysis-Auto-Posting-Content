@@ -2257,5 +2257,59 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16185,
+    "original_text": "JUST IN: GTA 6 has sold an estimated 24.58 million copies, generating $2,360,000,000 in revenue.\n\n@WatcherGuru",
+    "caption": "GTA 6 has sold an estimated 24.58 million copies, generating $2,360,000,000 in revenue.",
+    "date": "2026-11-20 16:00:47",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16187,
+    "original_text": "JUST IN: Crypto continues to crash\n\n$BTC falls under $61,000\n$ETH falls under $1,700\n$XRP falls under $0.95\n$SOL falls under $70\n\nOver $90,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n@WatcherGuru",
+    "caption": "Crypto continues to crash\n\n$BTC falls under $61,000\n$ETH falls under $1,700\n$XRP falls under $0.95\n$SOL falls under $70\n\nOver $90,000,000,000 wiped out from the crypto market cap in the past 24 hours.",
+    "date": "2026-11-20 16:00:47",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16191,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 US Treasury Secretary Bessent warns Chinese AI models are \"dangerous\" and being used in cyberattacks.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 US Treasury Secretary Bessent warns Chinese AI models are \"dangerous\" and being used in cyberattacks.",
+    "date": "2026-11-20 16:00:50",
+    "status": "published",
+    "zernio_post_id": "6b006eb5dfce7d591cfbb135",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123808829049561128",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-CVOACHyJ",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16195,
+    "original_text": "BREAKING: Bitcoin crashes under $60,000 and ETH crashes under $1,660\n\n$425,000,000 liquidated from the crypto market in the past 60 minutes.\n\n@WatcherGuru",
+    "caption": "Bitcoin crashes under $60,000 and ETH crashes under $1,660\n\n$425,000,000 liquidated from the crypto market in the past 60 minutes.",
+    "date": "2026-11-20 16:01:37",
+    "status": "published",
+    "zernio_post_id": "6b006ee37887b6505aaa02d2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123809016472101213",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-CaENjbpT",
+        "error": null
+      }
+    }
   }
 ]
