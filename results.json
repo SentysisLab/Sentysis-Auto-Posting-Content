@@ -2379,5 +2379,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16207,
+    "original_text": "JUST IN: \"Big Short\" investor Michael Burry says he sold half of his Nvidia $NVDA short position.\n\n@WatcherGuru",
+    "caption": "\"Big Short\" investor Michael Burry says he sold half of his Nvidia $NVDA short position.",
+    "date": "2026-11-20 18:00:45",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16209,
+    "original_text": "JUST IN: 🇺🇸 President Trump says the US economy is growing faster than any other major developed country.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says the US economy is growing faster than any other major developed country.",
+    "date": "2026-11-20 18:00:49",
+    "status": "published",
+    "zernio_post_id": "6b008ad34c637ef4015975a3",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123839033558147381",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-QIY1DmM7",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16210,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 President Trump announces agreement with China to establish joint rules for artificial intelligence.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 President Trump announces agreement with China to establish joint rules for artificial intelligence.",
+    "date": "2026-11-20 18:02:03",
+    "status": "published",
+    "zernio_post_id": "6b008b1bf9de81c7bad12c17",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123839305588019477",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-QKo2kVZU",
+        "error": null
+      }
+    }
   }
 ]
