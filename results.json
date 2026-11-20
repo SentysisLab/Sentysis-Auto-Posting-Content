@@ -2197,5 +2197,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16182,
+    "original_text": "JUST IN: Anthropic $ANT crashes 10% to $87 pre-market following yesterday's IPO.\n\n@WatcherGuru",
+    "caption": "Anthropic $ANT crashes 10% to $87 pre-market following yesterday's IPO.",
+    "date": "2026-11-20 14:00:53",
+    "status": "published",
+    "zernio_post_id": "6b005296b711d5cd7a63cf67",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123778623697997959",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df90kwQCGuB",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16183,
+    "original_text": "JUST IN: 🇪🇺 ECB President Christine Lagarde says tokenization could create a unified European market for digital assets.\n\n@WatcherGuru",
+    "caption": "🇪🇺 ECB President Christine Lagarde says tokenization could create a unified European market for digital assets.",
+    "date": "2026-11-20 14:01:20",
+    "status": "publishing",
+    "zernio_post_id": "6b0052b15a93d845da87b897",
+    "platforms": {
+      "twitter": {
+        "status": "pending",
+        "url": null,
+        "error": null
+      },
+      "threads": {
+        "status": "pending",
+        "url": null,
+        "error": null
+      }
+    }
   }
 ]
