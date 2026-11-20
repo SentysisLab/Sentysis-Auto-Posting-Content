@@ -2426,5 +2426,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16211,
+    "original_text": "JUST IN: 🇺🇸 President Trump calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n📰",
+    "date": "2026-11-20 19:00:58",
+    "status": "published",
+    "zernio_post_id": "6b0098efc23601c0f0b43592",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123854175297523829",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-W8EbDANt",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16213,
+    "original_text": "JUST IN: 🇺🇸 S&P 500 tech sector officially enters bear market territory after crashing 23% from recent highs.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 S&P 500 tech sector officially enters bear market territory after crashing 23% from recent highs.\n\n📰",
+    "date": "2026-11-20 19:01:31",
+    "status": "published",
+    "zernio_post_id": "6b00990ecc9b17d9589783d7",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123854307594240330",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-W-0pDTrt",
+        "error": null
+      }
+    }
   }
 ]
