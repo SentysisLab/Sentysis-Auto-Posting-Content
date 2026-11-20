@@ -2157,5 +2157,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16180,
+    "original_text": "JUST IN: 🇺🇸 President Trump to host exclusive dinner for top holders of his $TRUMP crypto memecoin on Sunday.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump to host exclusive dinner for top holders of his $TRUMP crypto memecoin on Sunday.",
+    "date": "2026-11-20 07:00:44",
+    "status": "published",
+    "zernio_post_id": "6afff01dc37ab17b3dd7edb2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123672884417528003",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df9EfLHCAcw",
+        "error": null
+      }
+    }
   }
 ]
