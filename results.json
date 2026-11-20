@@ -2466,5 +2466,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16214,
+    "original_text": "JUST IN: 🇺🇸 SEC investigation into Nvidia $NVDA is examining potential accounting issues.\n\n@WatcherGuru",
+    "caption": "🇺🇸 SEC investigation into Nvidia $NVDA is examining potential accounting issues.",
+    "date": "2026-11-20 20:00:51",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16215,
+    "original_text": "JUST IN: 🇺🇸 S&P 500 crashes under 7,000\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 S&P 500 crashes under 7,000\n\n📰",
+    "date": "2026-11-20 20:00:54",
+    "status": "published",
+    "zernio_post_id": "6b00a6f94be710388c1bb041",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123869244840464692",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-dyA0nMzz",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16217,
+    "original_text": "JUST IN: GTA 6 becomes the biggest entertainment launch in history with $3,790,000,000 in day-one sales.\n\n@WatcherGuru",
+    "caption": "GTA 6 becomes the biggest entertainment launch in history with $3,790,000,000 in day-one sales.",
+    "date": "2026-11-20 20:01:22",
+    "status": "published",
+    "zernio_post_id": "6b00a7138ba69d4077c15464",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123869337970790583",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-d0v4kTW8",
+        "error": null
+      }
+    }
   }
 ]
