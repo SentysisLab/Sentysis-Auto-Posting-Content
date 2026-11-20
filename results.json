@@ -2137,5 +2137,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16179,
+    "original_text": "JUST IN: Gold crashes under $3,550\n\n@WatcherGuru",
+    "caption": "Gold crashes under $3,550",
+    "date": "2026-11-20 03:00:49",
+    "status": "published",
+    "zernio_post_id": "6affb7e36c829a4ae26f70c7",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123612515707822186",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df8pCquCnJQ",
+        "error": null
+      }
+    }
   }
 ]
