@@ -2533,5 +2533,59 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16220,
+    "original_text": "BREAKING: 🇺🇸 $8.9 trillion erased from the US stock market in the past 45 days.\n\n$2.5 trillion wiped out of the US stock market today.\n\n@WatcherGuru",
+    "caption": "🇺🇸 $8.9 trillion erased from the US stock market in the past 45 days.\n\n$2.5 trillion wiped out of the US stock market today.",
+    "date": "2026-11-20 22:00:45",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16221,
+    "original_text": "JUST IN: Nvidia $NVDA crashes 23% in its biggest weekly decline since the 2008 financial crisis.\n\nOver $975,000,000,000 in market cap has been wiped out since Jensen Huang resigned as CEO.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA crashes 23% in its biggest weekly decline since the 2008 financial crisis.\n\nOver $975,000,000,000 in market cap has been wiped out since Jensen Huang resigned as CEO.",
+    "date": "2026-11-20 22:00:45",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16223,
+    "original_text": "JUST IN: 🇺🇸 US Tech stocks suffer worst week since the 2020 COVID pandemic.\n\n@WatcherGuru",
+    "caption": "🇺🇸 US Tech stocks suffer worst week since the 2020 COVID pandemic.",
+    "date": "2026-11-20 22:00:45",
+    "status": "published",
+    "zernio_post_id": "6b00c30e86ac7fd1ffa496fe",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123899384442097845",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-rfLXjEsc",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16224,
+    "original_text": "JUST IN: Goldman Sachs warns stock market selloff is not over.\n\n@WatcherGuru",
+    "caption": "Goldman Sachs warns stock market selloff is not over.",
+    "date": "2026-11-20 22:01:03",
+    "status": "published",
+    "zernio_post_id": "6b00c322a940c10287610720",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123899472912453942",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-rj3_ggsL",
+        "error": null
+      }
+    }
   }
 ]
