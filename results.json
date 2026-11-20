@@ -2222,18 +2222,38 @@
     "telegram_id": 16183,
     "original_text": "JUST IN: 🇪🇺 ECB President Christine Lagarde says tokenization could create a unified European market for digital assets.\n\n@WatcherGuru",
     "caption": "🇪🇺 ECB President Christine Lagarde says tokenization could create a unified European market for digital assets.",
-    "date": "2026-11-20 14:01:20",
-    "status": "publishing",
+    "date": "2026-11-20 15:00:59",
+    "status": "published",
     "zernio_post_id": "6b0052b15a93d845da87b897",
     "platforms": {
       "twitter": {
-        "status": "pending",
-        "url": null,
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123779270585487691",
         "error": null
       },
       "threads": {
-        "status": "pending",
-        "url": null,
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df903YZjV0m",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16184,
+    "original_text": "JUST IN: 🇺🇸 Over $500,000,000,000 erased from the US stock market at open.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Over $500,000,000,000 erased from the US stock market at open.",
+    "date": "2026-11-20 15:01:05",
+    "status": "published",
+    "zernio_post_id": "6b0060b2e6222958fae1ee2b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123793777592500439",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df97dnTjgt3",
         "error": null
       }
     }
