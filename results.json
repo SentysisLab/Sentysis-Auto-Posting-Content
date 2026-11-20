@@ -2097,5 +2097,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16177,
+    "original_text": "JUST IN: 🇺🇸 President Trump discloses 751 stock trades in September totaling up to $148,000,000\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump discloses 751 stock trades in September totaling up to $148,000,000",
+    "date": "2026-11-20 00:00:49",
+    "status": "published",
+    "zernio_post_id": "6aff8db298b63c22e5c80493",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123567228574425298",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df8UeBlDnBG",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16178,
+    "original_text": "JUST IN: 🇺🇸 US Department of Agriculture suffers cyberattack, forcing multiple government systems offline.\n\n@WatcherGuru",
+    "caption": "🇺🇸 US Department of Agriculture suffers cyberattack, forcing multiple government systems offline.",
+    "date": "2026-11-20 00:01:29",
+    "status": "published",
+    "zernio_post_id": "6aff8ddade89da93eb09a202",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123567376595640708",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df8UgexiE0t",
+        "error": null
+      }
+    }
   }
 ]
