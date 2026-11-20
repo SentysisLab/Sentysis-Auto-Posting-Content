@@ -2311,5 +2311,73 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16197,
+    "original_text": "JUST IN: $1,330,000,000 liquidated from the cryptocurrency market in the past 24 hours.\n\nLongs: $1.2 billion\nShorts: $131 million\n\n@WatcherGuru",
+    "caption": "$1,330,000,000 liquidated from the cryptocurrency market in the past 24 hours.\n\nLongs: $1.2 billion\nShorts: $131 million",
+    "date": "2026-11-20 17:00:51",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16198,
+    "original_text": "JUST IN: Bitcoin crashes under $59,000\n\n@WatcherGuru",
+    "caption": "Bitcoin crashes under $59,000",
+    "date": "2026-11-20 17:00:51",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16199,
+    "original_text": "JUST IN: Financial markets are crashing\n\nGold falls under $3,550\nS&P 500 falls under 7,100\nNasdaq falls under 25,800\nBitcoin falls under $59,000\n\nTrillions of dollars in combined market value have been wiped out today.\n\n@WatcherGuru",
+    "caption": "Financial markets are crashing\n\nGold falls under $3,550\nS&P 500 falls under 7,100\nNasdaq falls under 25,800\nBitcoin falls under $59,000\n\nTrillions of dollars in combined market value have been wiped out today.",
+    "date": "2026-11-20 17:00:51",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16203,
+    "original_text": "JUST IN: Michael Saylor's 'Strategy' currently has a $14,100,000,000 unrealized loss on its Bitcoin investment.\n\nTom Lee's 'Bitmine' currently has a $10,100,000,000 unrealized loss on its $ETH investment.\n\n@WatcherGuru",
+    "caption": "Michael Saylor's 'Strategy' currently has a $14,100,000,000 unrealized loss on its Bitcoin investment.\n\nTom Lee's 'Bitmine' currently has a $10,100,000,000 unrealized loss on its $ETH investment.",
+    "date": "2026-11-20 17:00:51",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16205,
+    "original_text": "JUST IN: 🇺🇸 Dow Jones officially enters correction territory, falling 10% from its all-time high.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Dow Jones officially enters correction territory, falling 10% from its all-time high.",
+    "date": "2026-11-20 17:00:51",
+    "status": "published",
+    "zernio_post_id": "6b007cc35eaab45ce4db09e7",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123823905450152202",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-JKegCKfz",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16206,
+    "original_text": "JUST IN: 🇺🇸 S&P 500 officially enters correction territory, falling 10% from its all-time high.\n\n@WatcherGuru",
+    "caption": "🇺🇸 S&P 500 officially enters correction territory, falling 10% from its all-time high.",
+    "date": "2026-11-20 17:01:13",
+    "status": "published",
+    "zernio_post_id": "6b007cdbd79b9f170598f5ec",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123824027768635576",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-JP3YDGGL",
+        "error": null
+      }
+    }
   }
 ]
