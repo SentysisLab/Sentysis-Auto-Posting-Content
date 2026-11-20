@@ -2513,5 +2513,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16218,
+    "original_text": "JUST IN: Odds of Bitcoin crashing under $55,000 by the end of this month surge to 47%.\n\n@WatcherGuru",
+    "caption": "Odds of Bitcoin crashing under $55,000 by the end of this month surge to 47%.",
+    "date": "2026-11-20 21:00:52",
+    "status": "published",
+    "zernio_post_id": "6b00b50af3bc9520cf8eabd5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123884350135468515",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-kqWPHDS_",
+        "error": null
+      }
+    }
   }
 ]
