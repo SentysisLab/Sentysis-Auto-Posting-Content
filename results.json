@@ -2587,5 +2587,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16226,
+    "original_text": "JUST IN: Person plays GTA 6 using Elon Musk's Neuralink brain chip.\n\n@WatcherGuru",
+    "caption": "Person plays GTA 6 using Elon Musk's Neuralink brain chip.",
+    "date": "2026-11-20 23:01:13",
+    "status": "published",
+    "zernio_post_id": "6b00d13bf545fe49e2e55886",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123914636663587167",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-ykhFBjnM",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16227,
+    "original_text": "JUST IN: $150,000,000,000 wiped out from the crypto market cap today.\n\n@WatcherGuru",
+    "caption": "$150,000,000,000 wiped out from the crypto market cap today.",
+    "date": "2026-11-20 23:03:23",
+    "status": "published",
+    "zernio_post_id": "6b00d1bd09ca087aa40f1b97",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123915150767898724",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df-yqIZghtn",
+        "error": null
+      }
+    }
   }
 ]
