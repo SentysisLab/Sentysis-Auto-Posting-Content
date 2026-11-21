@@ -2687,5 +2687,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16231,
+    "original_text": "JUST IN: Crypto continues to crash\n\n$BTC falls under $56,000\n$ETH falls under $1,550\n$XRP falls under $0.88\n$SOL falls under $66\n\n$650,000,000 in leveraged cryptocurrency positions liquidated in the past 60 minutes.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Crypto continues to crash\n\n$BTC falls under $56,000\n$ETH falls under $1,550\n$XRP falls under $0.88\n$SOL falls under $66\n\n$650,000,000 in leveraged cryptocurrency positions liquidated in the past 60 minutes.\n\n📰",
+    "date": "2026-11-21 05:00:59",
+    "status": "published",
+    "zernio_post_id": "6b012592ed908a47c2e0842c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124005180416901456",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df_bpKniJb-",
+        "error": null
+      }
+    }
   }
 ]
