@@ -2767,5 +2767,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16238,
+    "original_text": "JUST IN: 🇺🇸 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.",
+    "date": "2026-11-21 16:00:53",
+    "status": "published",
+    "zernio_post_id": "6b01c03b3a0b4104b06455aa",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124171253032304995",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgAnIafDNTF",
+        "error": null
+      }
+    }
   }
 ]
