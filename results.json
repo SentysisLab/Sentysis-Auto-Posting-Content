@@ -2647,5 +2647,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16229,
+    "original_text": "JUST IN: 🇺🇸 FBI hacked again in cyberattack targeting its nationwide crime database, CNN reports.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 FBI hacked again in cyberattack targeting its nationwide crime database, CNN reports.\n\n📰",
+    "date": "2026-11-21 03:00:45",
+    "status": "published",
+    "zernio_post_id": "6b01095e5eb61499b2c78766",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123974882551574682",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df_N0XzCPIJ",
+        "error": null
+      }
+    }
   }
 ]
