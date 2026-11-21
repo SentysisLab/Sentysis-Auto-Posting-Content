@@ -2667,5 +2667,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16230,
+    "original_text": "JUST IN: Bitcoin falls under $57,000 for the first time in over 2 years.\n\n$385 million liquidated from the crypto market in the past 5 minutes.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Bitcoin falls under $57,000 for the first time in over 2 years.\n\n$385 million liquidated from the crypto market in the past 5 minutes.\n\n📰",
+    "date": "2026-11-21 04:00:50",
+    "status": "published",
+    "zernio_post_id": "6b0117741fad60810d756e0a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2123990017118704101",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df_Us7yiGzs",
+        "error": null
+      }
+    }
   }
 ]
