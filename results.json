@@ -2727,5 +2727,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16236,
+    "original_text": "JUST IN: $60,000 Bitcoin\n\n@WatcherGuru",
+    "caption": "$60,000 Bitcoin",
+    "date": "2026-11-21 14:00:57",
+    "status": "published",
+    "zernio_post_id": "6b01a41e44b17ca3e00cd5d5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124141059257045046",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgAZY30kbw9",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16237,
+    "original_text": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\n@WatcherGuru",
+    "caption": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
+    "date": "2026-11-21 14:01:28",
+    "status": "published",
+    "zernio_post_id": "6b01a43b8aefd358de6d00b2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124141167990177868",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgAZcIFiMIJ",
+        "error": null
+      }
+    }
   }
 ]
