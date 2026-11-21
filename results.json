@@ -2807,5 +2807,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16241,
+    "original_text": "JUST IN: 🇷🇺 Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.\n\n@WatcherGuru",
+    "caption": "🇷🇺 Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
+    "date": "2026-11-21 22:00:47",
+    "status": "published",
+    "zernio_post_id": "6b02148ffdb1907045b127d5",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124261781291901271",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgBQSU3iKp_",
+        "error": null
+      }
+    }
   }
 ]
