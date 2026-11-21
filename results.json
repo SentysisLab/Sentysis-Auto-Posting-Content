@@ -2787,5 +2787,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16240,
+    "original_text": "JUST IN: Elon Musk's Tesla $TSLA officially begins rolling out FSD v15.\n\n@WatcherGuru",
+    "caption": "Elon Musk's Tesla $TSLA officially begins rolling out FSD v15.",
+    "date": "2026-11-21 20:00:56",
+    "status": "published",
+    "zernio_post_id": "6b01f87ad856ac69b168f3c7",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124231655443333239",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgBCxHFziMz",
+        "error": null
+      }
+    }
   }
 ]
