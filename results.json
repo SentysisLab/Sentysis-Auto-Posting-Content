@@ -2707,5 +2707,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16235,
+    "original_text": "JUST IN: 🇪🇺 European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
+    "caption": "🇪🇺 European Central Bank seeks partners to test tokenized bank deposits and securities.",
+    "date": "2026-11-21 10:00:48",
+    "status": "published",
+    "zernio_post_id": "6b016bd1a766830b9dddb7fc",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124080597362511932",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/Df_95JeDfia",
+        "error": null
+      }
+    }
   }
 ]
