@@ -2827,5 +2827,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16242,
+    "original_text": "JUST IN: 🇺🇸 Top Democrat threatens to cut government funding for Elon Musk's SpaceX $SPCX.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Top Democrat threatens to cut government funding for Elon Musk's SpaceX $SPCX.",
+    "date": "2026-11-22 03:00:52",
+    "status": "published",
+    "zernio_post_id": "6b025ae780e261d609d27e14",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124337310497911017",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgByp1MCvd9",
+        "error": null
+      }
+    }
   }
 ]
