@@ -2954,5 +2954,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16253,
+    "original_text": "JUST IN: OpenAI Chief Scientist calls to limit AI development.\n\n@WatcherGuru",
+    "caption": "OpenAI Chief Scientist calls to limit AI development.",
+    "date": "2026-11-22 20:00:45",
+    "status": "published",
+    "zernio_post_id": "6b0349ee19e83a2f9937fec1",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124593967052316853",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgDnWMXDH6L",
+        "error": null
+      }
+    }
   }
 ]
