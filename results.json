@@ -2847,5 +2847,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16244,
+    "original_text": "JUST IN: 🇺🇸 Democrats plan to reverse President Donald Trump's tax cuts after taking control of Congress next year.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Democrats plan to reverse President Donald Trump's tax cuts after taking control of Congress next year.",
+    "date": "2026-11-22 16:00:51",
+    "status": "published",
+    "zernio_post_id": "6b0311b355a2e16eb303e5c1",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124533598296449279",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgDL5HhgOlM",
+        "error": null
+      }
+    }
   }
 ]
