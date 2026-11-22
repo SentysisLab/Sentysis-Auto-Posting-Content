@@ -2867,5 +2867,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16245,
+    "original_text": "JUST IN: Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.\n\n📰",
+    "date": "2026-11-22 17:00:48",
+    "status": "published",
+    "zernio_post_id": "6b031fc15b7081d4ffe7f891",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124548679600070813",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgDSwOlAJSW",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16246,
+    "original_text": "JUST IN: Bitcoin reclaims $61,000 and ETH reclaims $1,715\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Bitcoin reclaims $61,000 and ETH reclaims $1,715\n\n📰",
+    "date": "2026-11-22 17:01:08",
+    "status": "published",
+    "zernio_post_id": "6b031fd7685771761f7d09d2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124548775393816687",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgDS0hvCJBz",
+        "error": null
+      }
+    }
   }
 ]
