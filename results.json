@@ -2907,5 +2907,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16248,
+    "original_text": "JUST IN: Elon Musk says Tesla's $TSLA humanoid robot Optimus will be the \"best product of all time.\"\n\n@WatcherGuru",
+    "caption": "Elon Musk says Tesla's $TSLA humanoid robot Optimus will be the \"best product of all time.\"",
+    "date": "2026-11-22 18:00:52",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16250,
+    "original_text": "JUST IN: 🇺🇸 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"",
+    "date": "2026-11-22 18:00:52",
+    "status": "published",
+    "zernio_post_id": "6b032dd48c4f13c1f96beb8f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124563793392873686",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgDZoGZlZcw",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16251,
+    "original_text": "JUST IN: 🇨🇳🇺🇸 US intelligence confirms China gained access to advanced American AI chips.\n\n@WatcherGuru",
+    "caption": "🇨🇳🇺🇸 US intelligence confirms China gained access to advanced American AI chips.",
+    "date": "2026-11-22 18:01:11",
+    "status": "published",
+    "zernio_post_id": "6b032de9d24f6ec19f7d9401",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124563884585488642",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgDZreuDaDg",
+        "error": null
+      }
+    }
   }
 ]
