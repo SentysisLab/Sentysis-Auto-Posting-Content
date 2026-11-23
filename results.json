@@ -3317,5 +3317,59 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16286,
+    "original_text": "JUST IN: President Trump says \"sex sells, fellas\" after Jensen Huang's reinstatement as Nvidia's $NVDA CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "President Trump says \"sex sells, fellas\" after Jensen Huang's reinstatement as Nvidia's $NVDA CEO.\n\n📰",
+    "date": "2026-11-23 17:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16287,
+    "original_text": "JUST IN: 🇺🇸 Senator Schumer says Democrats will use their full power to investigate Nvidia CEO Jensen Huang, other executives, and the Trump administration.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Senator Schumer says Democrats will use their full power to investigate Nvidia CEO Jensen Huang, other executives, and the Trump administration.\n\n📰",
+    "date": "2026-11-23 17:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16288,
+    "original_text": "JUST IN: Jensen Huang net worth rises $36 billion to $147,000,000,000 after being reinstated as Nvidia's $NVDA CEO, President, and Board Director.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Jensen Huang net worth rises $36 billion to $147,000,000,000 after being reinstated as Nvidia's $NVDA CEO, President, and Board Director.\n\n📰",
+    "date": "2026-11-23 17:00:58",
+    "status": "published",
+    "zernio_post_id": "6b04714f4841eb0e979e39ed",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124911141553946817",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgF3mBqDt78",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16290,
+    "original_text": "JUST IN: 🇺🇸 President Trump posts meme recreating his assassination attempt photo with Nvidia $NVDA CEO Jensen Huang holding a red bra.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump posts meme recreating his assassination attempt photo with Nvidia $NVDA CEO Jensen Huang holding a red bra.\n\n📰",
+    "date": "2026-11-23 17:01:40",
+    "status": "published",
+    "zernio_post_id": "6b047179875aca281c445494",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124911300568354906",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgF3pzijD8F",
+        "error": null
+      }
+    }
   }
 ]
