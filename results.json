@@ -3094,5 +3094,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16262,
+    "original_text": "JUST IN: 🇰🇷 South Korea to release draft of comprehensive crypto laws this week.\n\n@WatcherGuru",
+    "caption": "🇰🇷 South Korea to release draft of comprehensive crypto laws this week.",
+    "date": "2026-11-23 11:00:54",
+    "status": "published",
+    "zernio_post_id": "6b041ce62198af2c6eaa241b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124820498596970578",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFOXKpkRna",
+        "error": null
+      }
+    }
   }
 ]
