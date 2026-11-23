@@ -3114,5 +3114,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16263,
+    "original_text": "JUST IN: 🇬🇧 UK to ban crypto exchanges from trading on their own platforms starting October 2027.\n\n@WatcherGuru",
+    "caption": "🇬🇧 UK to ban crypto exchanges from trading on their own platforms starting October 2027.",
+    "date": "2026-11-23 13:00:54",
+    "status": "published",
+    "zernio_post_id": "6b043907fb6ab33096fe4bb4",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124850695207637386",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFcF_hiHDT",
+        "error": null
+      }
+    }
   }
 ]
