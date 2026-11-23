@@ -3371,5 +3371,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16291,
+    "original_text": "JUST IN: 🇺🇸 President Trump says he convinced Nvidia $NVDA board to reinstate Jensen Huang as CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says he convinced Nvidia $NVDA board to reinstate Jensen Huang as CEO.\n\n📰",
+    "date": "2026-11-23 18:00:47",
+    "status": "published",
+    "zernio_post_id": "6b047f4ff44639cdb164c71a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124926171376693741",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgF-aj5iJ2I",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16292,
+    "original_text": "JUST IN: 🇺🇸 Senator Elizabeth Warren says Nvidia's $NVDA decision to reinstate Jensen Huang as CEO is \"reckless\" and \"puts our national security at risk.\"\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Senator Elizabeth Warren says Nvidia's $NVDA decision to reinstate Jensen Huang as CEO is \"reckless\" and \"puts our national security at risk.\"\n\n📰",
+    "date": "2026-11-23 18:01:13",
+    "status": "published",
+    "zernio_post_id": "6b047f6dcf881bbeaad27071",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124926287525404891",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgF-fgJiCO7",
+        "error": null
+      }
+    }
   }
 ]
