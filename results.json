@@ -2994,5 +2994,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16256,
+    "original_text": "JUST IN: 🇺🇸 US stock futures open green after $2.7 trillion was wiped out of the market on Friday.\n\n@WatcherGuru",
+    "caption": "🇺🇸 US stock futures open green after $2.7 trillion was wiped out of the market on Friday.",
+    "date": "2026-11-23 00:00:55",
+    "status": "published",
+    "zernio_post_id": "6b0382392545350e37d7e85f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124654414484947256",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgEC2dDiDko",
+        "error": null
+      }
+    }
   }
 ]
