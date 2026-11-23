@@ -3054,5 +3054,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16260,
+    "original_text": "JUST IN: Meta's $META AI Chief warns humanity may lose control of artificial intelligence as it becomes 1,000 times smarter than humans.\n\n@WatcherGuru",
+    "caption": "Meta's $META AI Chief warns humanity may lose control of artificial intelligence as it becomes 1,000 times smarter than humans.",
+    "date": "2026-11-23 06:00:52",
+    "status": "published",
+    "zernio_post_id": "6b03d694c585cd5f6ccefb5d",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124744982292582510",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgEsBR3iD41",
+        "error": null
+      }
+    }
   }
 ]
