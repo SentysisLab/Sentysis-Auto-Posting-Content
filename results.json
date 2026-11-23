@@ -3074,5 +3074,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16261,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 President Trump says he supports crypto with his $TRUMP memecoin to ensure United States stays ahead of China.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 President Trump says he supports crypto with his $TRUMP memecoin to ensure United States stays ahead of China.",
+    "date": "2026-11-23 09:00:48",
+    "status": "published",
+    "zernio_post_id": "6b0400c0934d0e5caec0e2ea",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124790265890119719",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFAnP3EYmF",
+        "error": null
+      }
+    }
   }
 ]
