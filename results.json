@@ -3134,5 +3134,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16264,
+    "original_text": "JUST IN: Michael Saylor's 'Strategy' buys 457 Bitcoin worth $28 million.\n\n@WatcherGuru",
+    "caption": "Michael Saylor's 'Strategy' buys 457 Bitcoin worth $28 million.",
+    "date": "2026-11-23 14:00:58",
+    "status": "published",
+    "zernio_post_id": "6b04471b6d5b704ad6497a39",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124865810111815880",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFi91lCJ1Q",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16265,
+    "original_text": "BREAKING: Nvidia $NVDA reinstates Jensen Huang as CEO and President.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA reinstates Jensen Huang as CEO and President.",
+    "date": "2026-11-23 14:01:20",
+    "status": "published",
+    "zernio_post_id": "6b044733e4be54f10e9b4afe",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124865915065930226",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFjBqEjhl7",
+        "error": null
+      }
+    }
   }
 ]
