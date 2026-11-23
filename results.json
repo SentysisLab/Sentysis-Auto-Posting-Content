@@ -3014,5 +3014,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16257,
+    "original_text": "JUST IN: 🇨🇳 Alice Huang had contact with China's top spy agency during affair with former Nvidia $NVDA CEO Jensen Huang.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇨🇳 Alice Huang had contact with China's top spy agency during affair with former Nvidia $NVDA CEO Jensen Huang.\n\n📰",
+    "date": "2026-11-23 03:00:51",
+    "status": "published",
+    "zernio_post_id": "6b03ac636dae400ff16aee8b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124699679988289720",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgEXawYCmRt",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16258,
+    "original_text": "JUST IN: 🇺🇸 President Trump calls on Nvidia $NVDA to rehire Jensen Huang as CEO.\n\n\"It would be the best thing for the company and also, for the USA.\"\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump calls on Nvidia $NVDA to rehire Jensen Huang as CEO.\n\n\"It would be the best thing for the company and also, for the USA.\"\n\n📰",
+    "date": "2026-11-23 03:01:11",
+    "status": "published",
+    "zernio_post_id": "6b03ac7aef4282e67bb4e95c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124699779925999658",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgEXfMziET7",
+        "error": null
+      }
+    }
   }
 ]
