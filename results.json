@@ -3431,5 +3431,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16295,
+    "original_text": "JUST IN: 🇺🇸 $3.3 trillion added to the US stock market today.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 $3.3 trillion added to the US stock market today.\n\n📰",
+    "date": "2026-11-23 22:00:48",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16296,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n📰",
+    "date": "2026-11-23 22:00:48",
+    "status": "published",
+    "zernio_post_id": "6b04b79196fc947a310f09e6",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124986563536851067",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgGZ4I_Cm-G",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16297,
+    "original_text": "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA short sellers lose $11,300,000,000 today.",
+    "date": "2026-11-23 22:01:10",
+    "status": "published",
+    "zernio_post_id": "6b04b7a816c6f7295d713b8c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124986663520653649",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgGZ8XeAEFu",
+        "error": null
+      }
+    }
   }
 ]
