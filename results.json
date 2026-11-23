@@ -3174,5 +3174,80 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16267,
+    "original_text": "JUST IN: Bitcoin surges to $63,000 as $250,000,000 in shorts are liquidated from the crypto market in 10 minutes.\n\nTrack liquidations in real-time: https://watcherguru.com/liquidations\n\n@WatcherGuru",
+    "caption": "Bitcoin surges to $63,000 as $250,000,000 in shorts are liquidated from the crypto market in 10 minutes.\n\nTrack liquidations in real-time:",
+    "date": "2026-11-23 15:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16268,
+    "original_text": "JUST IN: 🇺🇸 President Trump says Nvidia $NVDA made the \"correct and proper decision\" to reinstate Jensen Huang as CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says Nvidia $NVDA made the \"correct and proper decision\" to reinstate Jensen Huang as CEO.\n\n📰",
+    "date": "2026-11-23 15:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16270,
+    "original_text": "JUST IN: Jensen Huang says \"I can't wait to get back to work\" after being reinstated as Nvidia's $NVDA CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Jensen Huang says \"I can't wait to get back to work\" after being reinstated as Nvidia's $NVDA CEO.\n\n📰",
+    "date": "2026-11-23 15:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16271,
+    "original_text": "JUST IN: 🇺🇸 Nasdaq hits circuit breaker as stocks surge following Nvidia's $NVDA announcement to reinstate Jensen Huang as CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Nasdaq hits circuit breaker as stocks surge following Nvidia's $NVDA announcement to reinstate Jensen Huang as CEO.\n\n📰",
+    "date": "2026-11-23 15:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16272,
+    "original_text": "JUST IN: Nvidia $NVDA surges over 34% to $168 at open following Jensen Huang's reinstatement as CEO, President, and Board Director.\n\nOver $1,000,000,000,000 in market cap has been added since the announcement.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA surges over 34% to $168 at open following Jensen Huang's reinstatement as CEO, President, and Board Director.\n\nOver $1,000,000,000,000 in market cap has been added since the announcement.\n\n📰",
+    "date": "2026-11-23 15:00:55",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16273,
+    "original_text": "JUST IN: 🇺🇸 Over $3,000,000,000,000 added to the US stock market in the first 10 minutes of trading today.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Over $3,000,000,000,000 added to the US stock market in the first 10 minutes of trading today.\n\n📰",
+    "date": "2026-11-23 15:00:58",
+    "status": "published",
+    "zernio_post_id": "6b04552bf3d454de741c9bf1",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124880930405834834",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFp4P7EX9A",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16274,
+    "original_text": "JUST IN: Elon Musk praises Nvidia $NVDA for reinstating Jensen Huang as CEO.\n\n\"The mistake has been corrected.\"\n\n@WatcherGuru",
+    "caption": "Elon Musk praises Nvidia $NVDA for reinstating Jensen Huang as CEO.\n\n\"The mistake has been corrected.\"",
+    "date": "2026-11-23 15:01:43",
+    "status": "published",
+    "zernio_post_id": "6b0455598a61ac7eff0aaf34",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124881114628026662",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgFp9E3go2Y",
+        "error": null
+      }
+    }
   }
 ]
