@@ -3411,5 +3411,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16294,
+    "original_text": "JUST IN: Jensen Huang officially returns to Nvidia's $NVDA headquarters after being reinstated as CEO.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Jensen Huang officially returns to Nvidia's $NVDA headquarters after being reinstated as CEO.\n\n📰",
+    "date": "2026-11-23 19:01:00",
+    "status": "published",
+    "zernio_post_id": "6b048d6d58566d055d2539eb",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2124941379709079693",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgGFX25JF0p",
+        "error": null
+      }
+    }
   }
 ]
