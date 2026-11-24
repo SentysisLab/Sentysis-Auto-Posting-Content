@@ -3518,5 +3518,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16303,
+    "original_text": "JUST IN: 🇭🇰 BlackRock launches its first tokenized money market fund in Hong Kong, allowing investments using crypto stablecoins.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇭🇰 BlackRock launches its first tokenized money market fund in Hong Kong, allowing investments using crypto stablecoins.\n\n📰",
+    "date": "2026-11-24 07:00:56",
+    "status": "published",
+    "zernio_post_id": "6b053628b8f1c3e680074f8b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125122489067987270",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgHXsJgAGaw",
+        "error": null
+      }
+    }
   }
 ]
