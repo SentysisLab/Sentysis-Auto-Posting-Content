@@ -3478,5 +3478,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16299,
+    "original_text": "JUST IN: Bitcoin crashes under $60,000 again as ETH falls below $1,700\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Bitcoin crashes under $60,000 again as ETH falls below $1,700\n\n📰",
+    "date": "2026-11-24 04:00:54",
+    "status": "published",
+    "zernio_post_id": "6b050bf872efa63d1d31609b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125077194502295666",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgHDHRcinmp",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16301,
+    "original_text": "JUST IN: Jensen Huang admitted to additional affairs during talks with Nvidia $NVDA board before being reinstated as CEO, WSJ reports.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Jensen Huang admitted to additional affairs during talks with Nvidia $NVDA board before being reinstated as CEO, WSJ reports.\n\n📰",
+    "date": "2026-11-24 04:01:33",
+    "status": "published",
+    "zernio_post_id": "6b050c1f533b60fb2444d7aa",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125077356326867389",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgHDMeAigaR",
+        "error": null
+      }
+    }
   }
 ]
