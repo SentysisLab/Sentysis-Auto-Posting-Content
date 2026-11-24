@@ -57,7 +57,7 @@ SLEEP_BETWEEN_POSTS_SEC = 2
 TEXT_LIMIT = {"twitter": 280, "threads": 500}
 
 # Call to action added to the end of every post
-CTA = "You can turn this into a token. Create the Narrative, stake conviction, and launch within 48 hours."
+CTA = "Create your Narrative, stake conviction, and launch token within 48 hours."
 MAX_IMAGES = 4                  # X allows 4 images; Threads allows more
 TEMP_DIR = Path("temp_media")
 
