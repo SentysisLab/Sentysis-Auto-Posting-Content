@@ -3665,5 +3665,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16313,
+    "original_text": "JUST IN: Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n📰",
+    "date": "2026-11-24 17:00:56",
+    "status": "published",
+    "zernio_post_id": "6b05c2c8714c78cf39f1cb89",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125273490374689107",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIcW96kQg0",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16314,
+    "original_text": "JUST IN: 🇺🇸 $7.8 trillion Fidelity adds Chainlink $LINK, $AAVE and Uniswap $UNI to its crypto trading platform and retirement accounts.\n\n@WatcherGuru",
+    "caption": "🇺🇸 $7.8 trillion Fidelity adds Chainlink $LINK, $AAVE and Uniswap $UNI to its crypto trading platform and retirement accounts.",
+    "date": "2026-11-24 17:01:12",
+    "status": "published",
+    "zernio_post_id": "6b05c2d9714c78cf39f1cbc1",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125273549908615216",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIcYsLkc9B",
+        "error": null
+      }
+    }
   }
 ]
