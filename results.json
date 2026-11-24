@@ -3618,5 +3618,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16308,
+    "original_text": "JUST IN: Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n📰",
+    "date": "2026-11-24 16:00:51",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16309,
+    "original_text": "JUST IN: 🇺🇸 Billionaire Bill Ackman warns the US economy could enter another recession.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Billionaire Bill Ackman warns the US economy could enter another recession.\n\n📰",
+    "date": "2026-11-24 16:00:55",
+    "status": "published",
+    "zernio_post_id": "6b05b4bbba805dfc33e45898",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125258409586901064",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIVhqRCmXn",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16311,
+    "original_text": "JUST IN: Jim Cramer says Anthropic is the \"silent killer\" of the stock market.\n\n@WatcherGuru",
+    "caption": "Jim Cramer says Anthropic is the \"silent killer\" of the stock market.",
+    "date": "2026-11-24 16:01:41",
+    "status": "published",
+    "zernio_post_id": "6b05b4e70a4c346c56cc92b3",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125258584225100006",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIVmcrCPAd",
+        "error": null
+      }
+    }
   }
 ]
