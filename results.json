@@ -3705,5 +3705,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16315,
+    "original_text": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
+    "caption": "60% chance Bitcoin falls below $55,000 before the end of this year.",
+    "date": "2026-11-24 18:00:56",
+    "status": "published",
+    "zernio_post_id": "6b05d0dc92a2de7f5c960f77",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125288608756011353",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIjPhHlzPC",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16317,
+    "original_text": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Jim Cramer says it's \"time\" to buy.\n\n📰",
+    "date": "2026-11-24 18:01:30",
+    "status": "published",
+    "zernio_post_id": "6b05d0fc5df6fc347355bfbe",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125288737034613162",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIjSr9imWG",
+        "error": null
+      }
+    }
   }
 ]
