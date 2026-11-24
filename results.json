@@ -3578,5 +3578,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16306,
+    "original_text": "JUST IN: 🇮🇹 Italy's second-largest bank UniCredit launches Bitcoin-linked investment product offering 100% capital protection at maturity.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇮🇹 Italy's second-largest bank UniCredit launches Bitcoin-linked investment product offering 100% capital protection at maturity.\n\n📰",
+    "date": "2026-11-24 15:00:53",
+    "status": "published",
+    "zernio_post_id": "6b05a6a667d20f5961c3a67b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125243278438068624",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIOnt1jY8O",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16307,
+    "original_text": "JUST IN: 🇺🇸 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n📰",
+    "date": "2026-11-24 15:01:14",
+    "status": "published",
+    "zernio_post_id": "6b05a6bd79a3a503aa398f09",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125243374701608960",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIOqlgDOGs",
+        "error": null
+      }
+    }
   }
 ]
