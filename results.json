@@ -3785,5 +3785,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16320,
+    "original_text": "JUST IN: 🇺🇸 President Trump says he is willing to pardon Nvidia $NVDA CEO Jensen Huang if necessary.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says he is willing to pardon Nvidia $NVDA CEO Jensen Huang if necessary.",
+    "date": "2026-11-24 23:00:47",
+    "status": "published",
+    "zernio_post_id": "6b061720014299cb1e1abfc2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125364049118454193",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgJFiZnism6",
+        "error": null
+      }
+    }
   }
 ]
