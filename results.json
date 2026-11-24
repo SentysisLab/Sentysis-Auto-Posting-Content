@@ -3538,5 +3538,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16304,
+    "original_text": "JUST IN: OpenAI and Anthropic $ANT employees fear unreleased AI models are becoming too powerful to safely release.\n\n@WatcherGuru",
+    "caption": "OpenAI and Anthropic $ANT employees fear unreleased AI models are becoming too powerful to safely release.",
+    "date": "2026-11-24 12:00:54",
+    "status": "published",
+    "zernio_post_id": "6b057c76dda3d1591db3dbdd",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125197987286564944",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgH6BdvDU4z",
+        "error": null
+      }
+    }
   }
 ]
