@@ -3558,5 +3558,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16305,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 US prepares to raise tariffs on China, European Union and 14 other countries.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 US prepares to raise tariffs on China, European Union and 14 other countries.",
+    "date": "2026-11-24 14:00:54",
+    "status": "published",
+    "zernio_post_id": "6b05989602542c96378cc95c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125228190364762433",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIHwe4ER3F",
+        "error": null
+      }
+    }
   }
 ]
