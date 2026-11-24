@@ -3765,5 +3765,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16319,
+    "original_text": "JUST IN: 🇺🇸 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n📰",
+    "date": "2026-11-24 20:00:49",
+    "status": "published",
+    "zernio_post_id": "6b05ecf15f6b98d283e85ffc",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125318753994891299",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIw8RoEeSV",
+        "error": null
+      }
+    }
   }
 ]
