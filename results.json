@@ -3745,5 +3745,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16318,
+    "original_text": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
+    "caption": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
+    "date": "2026-11-24 19:00:50",
+    "status": "published",
+    "zernio_post_id": "6b05dee294bcec7215c071ae",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125303659890123031",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgIqE5YDd_B",
+        "error": null
+      }
+    }
   }
 ]
