@@ -4080,5 +4080,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16347,
+    "original_text": "JUST IN: 🇺🇸 FDA approves Elon Musk's Neuralink brain implant trials.\n\n@WatcherGuru",
+    "caption": "🇺🇸 FDA approves Elon Musk's Neuralink brain implant trials.",
+    "date": "2026-11-25 22:00:51",
+    "status": "published",
+    "zernio_post_id": "6b075a9316de049aa6ceb0d2",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125711346071220592",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLjeDoDs_7",
+        "error": null
+      }
+    }
   }
 ]
