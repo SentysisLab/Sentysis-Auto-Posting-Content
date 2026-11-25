@@ -3865,5 +3865,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16324,
+    "original_text": "JUST IN: 🇺🇸🇪🇺 US proposes tariffs of up to 20% on the European Union following trade investigation.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇪🇺 US proposes tariffs of up to 20% on the European Union following trade investigation.",
+    "date": "2026-11-25 14:00:51",
+    "status": "published",
+    "zernio_post_id": "6b06ea13b473b06a3e5b33b1",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125590555723706555",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgKsioXF-je",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16325,
+    "original_text": "JUST IN: 🇺🇦 Ukraine passes bill to legalize Bitcoin and crypto, allowing citizens to hold cryptocurrencies without declaring them.\n\n@WatcherGuru",
+    "caption": "🇺🇦 Ukraine passes bill to legalize Bitcoin and crypto, allowing citizens to hold cryptocurrencies without declaring them.",
+    "date": "2026-11-25 14:01:06",
+    "status": "published",
+    "zernio_post_id": "6b06ea2237f7ddf71c2e0d72",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125590610409046346",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgKskN_jAFR",
+        "error": null
+      }
+    }
   }
 ]
