@@ -3805,5 +3805,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16321,
+    "original_text": "JUST IN: 🇺🇸 US Treasury suffers cyberattack.\n\nThe US Treasury's financial crimes agency, FinCEN, is investigating a cybersecurity breach and has taken some systems offline as a precaution.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 US Treasury suffers cyberattack.\n\nThe US Treasury's financial crimes agency, FinCEN, is investigating a cybersecurity breach and has taken some systems offline as a precaution.\n\n📰",
+    "date": "2026-11-25 04:00:46",
+    "status": "published",
+    "zernio_post_id": "6b065d6e93685da9d817b15f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125439533948764541",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgJn3bjjJZp",
+        "error": null
+      }
+    }
   }
 ]
