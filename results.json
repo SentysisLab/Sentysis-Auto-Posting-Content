@@ -4033,5 +4033,52 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16342,
+    "original_text": "JUST IN: 🇺🇸 93% chance the Fed hikes interest rates by 25 basis points at the next FOMC meeting.\n\n@WatcherGuru",
+    "caption": "🇺🇸 93% chance the Fed hikes interest rates by 25 basis points at the next FOMC meeting.",
+    "date": "2026-11-25 19:00:48",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16344,
+    "original_text": "JUST IN: S&P considers lowering Nvidia's $NVDA credit rating.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "S&P considers lowering Nvidia's $NVDA credit rating.\n\n📰",
+    "date": "2026-11-25 19:00:48",
+    "status": "published",
+    "zernio_post_id": "6b0730610833462ae11c8021",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125666038238908498",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLO3fUCq9t",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16345,
+    "original_text": "JUST IN: 🇺🇸 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.\n\n📰",
+    "date": "2026-11-25 19:01:10",
+    "status": "published",
+    "zernio_post_id": "6b073078d83befa33844fd64",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125666146267390242",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLO8XiCPrx",
+        "error": null
+      }
+    }
   }
 ]
