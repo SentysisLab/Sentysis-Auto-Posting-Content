@@ -3845,5 +3845,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16323,
+    "original_text": "JUST IN: 🇫🇷 French Senate rejects proposal requiring citizens to declare crypto holdings of €100,000 or more held in self-custody wallets.\n\n@WatcherGuru",
+    "caption": "🇫🇷 French Senate rejects proposal requiring citizens to declare crypto holdings of €100,000 or more held in self-custody wallets.",
+    "date": "2026-11-25 11:00:48",
+    "status": "published",
+    "zernio_post_id": "6b06bfe07be10580ca44f886",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125545243537809525",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgKX78Egrg3",
+        "error": null
+      }
+    }
   }
 ]
