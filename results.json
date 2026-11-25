@@ -4100,5 +4100,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16348,
+    "original_text": "JUST IN: 🇺🇸 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.\n\n@WatcherGuru",
+    "caption": "🇺🇸 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.",
+    "date": "2026-11-25 23:00:51",
+    "status": "published",
+    "zernio_post_id": "6b0768a66bb242efc06bdb0b",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125726462363775280",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLqW47jPLc",
+        "error": null
+      }
+    }
   }
 ]
