@@ -4013,5 +4013,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16340,
+    "original_text": "JUST IN: 🇺🇸 President Trump says stocks are crashing because Democrats won midterm elections.\n\n\"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been much different, and the Stock Market, and your 401-k's, would be BOOMING.\"\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Trump says stocks are crashing because Democrats won midterm elections.\n\n\"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been much different, and the Stock Market, and your 401-k's, would be BOOMING.\"",
+    "date": "2026-11-25 18:00:50",
+    "status": "published",
+    "zernio_post_id": "6b0722549ff960291054cbb9",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125650959015543039",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLIBeyDlho",
+        "error": null
+      }
+    }
   }
 ]
