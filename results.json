@@ -3945,5 +3945,73 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16331,
+    "original_text": "JUST IN: 🇺🇸 Nasdaq 100 set to enter bear market as over $8.5 trillion in market value has been wiped out since its October highs.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 Nasdaq 100 set to enter bear market as over $8.5 trillion in market value has been wiped out since its October highs.\n\n📰",
+    "date": "2026-11-25 17:00:54",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16332,
+    "original_text": "JUST IN: Gold and Silver are dumping\n\nGold falls under $3,440\nSilver falls under $40\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Gold and Silver are dumping\n\nGold falls under $3,440\nSilver falls under $40\n\n📰",
+    "date": "2026-11-25 17:00:54",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16334,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 US intelligence finds no evidence China directed Alice Huang to spy on Nvidia $NVDA CEO Jensen Huang.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 US intelligence finds no evidence China directed Alice Huang to spy on Nvidia $NVDA CEO Jensen Huang.\n\n📰",
+    "date": "2026-11-25 17:00:54",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16335,
+    "original_text": "JUST IN: JPMorgan predicts an AI supercycle in 2027.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "JPMorgan predicts an AI supercycle in 2027.\n\n📰",
+    "date": "2026-11-25 17:00:54",
+    "status": "skipped"
+  },
+  {
+    "telegram_id": 16337,
+    "original_text": "JUST IN: Michael Burry says he is now almost entirely long and plans to invest the rest of his cash.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Michael Burry says he is now almost entirely long and plans to invest the rest of his cash.\n\n📰",
+    "date": "2026-11-25 17:00:58",
+    "status": "published",
+    "zernio_post_id": "6b07144d50135b4bab870162",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125635903439728672",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLBL7GCHwE",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16339,
+    "original_text": "JUST IN: 🇺🇸 FCC authorizes SpaceX $SPCX to deploy 1,000,000 data centers in space.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "🇺🇸 FCC authorizes SpaceX $SPCX to deploy 1,000,000 data centers in space.\n\n📰",
+    "date": "2026-11-25 17:01:42",
+    "status": "published",
+    "zernio_post_id": "6b071476933164b8a226cc1d",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125636059501371454",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgLBPArgC5y",
+        "error": null
+      }
+    }
   }
 ]
