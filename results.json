@@ -4160,5 +4160,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16352,
+    "original_text": "JUST IN: Banking giant HSBC's crypto stablecoin surpasses 100,000 users in its first month.\n\n@WatcherGuru",
+    "caption": "Banking giant HSBC's crypto stablecoin surpasses 100,000 users in its first month.",
+    "date": "2026-11-26 04:00:47",
+    "status": "published",
+    "zernio_post_id": "6b07aeefa81808b909279c3e",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125801925379506540",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgMMqWMCqo8",
+        "error": null
+      }
+    }
   }
 ]
