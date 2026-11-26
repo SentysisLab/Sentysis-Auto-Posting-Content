@@ -4180,5 +4180,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16353,
+    "original_text": "JUST IN: Nvidia $NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:\n\n• Thailand\n• Malaysia\n• Indonesia\n• Singapore\n\n@WatcherGuru",
+    "caption": "Nvidia $NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:\n\n• Thailand\n• Malaysia\n• Indonesia\n• Singapore",
+    "date": "2026-11-26 12:00:52",
+    "status": "published",
+    "zernio_post_id": "6b081f7555d3addd1a27565d",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125922744810222009",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgNDm3fgAK8",
+        "error": null
+      }
+    }
   }
 ]
