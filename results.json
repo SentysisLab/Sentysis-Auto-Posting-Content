@@ -4220,5 +4220,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16355,
+    "original_text": "JUST IN: 🇺🇸 President Donald Trump calls for an immediate investigation into \"fake economic numbers\" released before midterm elections, after US GDP growth was revised up from 3.4% to 4.3%.\n\n@WatcherGuru",
+    "caption": "🇺🇸 President Donald Trump calls for an immediate investigation into \"fake economic numbers\" released before midterm elections, after US GDP growth was revised up from 3.4% to 4.3%.",
+    "date": "2026-11-26 16:00:54",
+    "status": "published",
+    "zernio_post_id": "6b0857b75311791fbbae5b34",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125983154649370825",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgNfFJKiMPx",
+        "error": null
+      }
+    }
   }
 ]
