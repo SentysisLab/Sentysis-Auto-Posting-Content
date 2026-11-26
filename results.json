@@ -4120,5 +4120,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16350,
+    "original_text": "JUST IN: 🇺🇸 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.\n\n@WatcherGuru",
+    "caption": "🇺🇸 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.",
+    "date": "2026-11-26 01:00:48",
+    "status": "published",
+    "zernio_post_id": "6b0784c0f4b7d531e176a266",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125756629802955030",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgL4EA1iP49",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16351,
+    "original_text": "JUST IN: Bitcoin reclaims $61,000\n\n@WatcherGuru",
+    "caption": "Bitcoin reclaims $61,000",
+    "date": "2026-11-26 01:01:06",
+    "status": "published",
+    "zernio_post_id": "6b0784d377d06c39218b07c6",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125756710404895169",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgL4GmuCERw",
+        "error": null
+      }
+    }
   }
 ]
