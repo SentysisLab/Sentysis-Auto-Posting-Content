@@ -4200,5 +4200,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16354,
+    "original_text": "JUST IN: 🇨🇭 Switzerland approves its first spot Bitcoin ETF on its SIX Swiss Exchange.\n\n@WatcherGuru",
+    "caption": "🇨🇭 Switzerland approves its first spot Bitcoin ETF on its SIX Swiss Exchange.",
+    "date": "2026-11-26 13:00:50",
+    "status": "published",
+    "zernio_post_id": "6b082d8352661bb75b3098e4",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125937836733943946",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgNKd6biOtf",
+        "error": null
+      }
+    }
   }
 ]
