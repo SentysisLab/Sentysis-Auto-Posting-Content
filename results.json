@@ -4240,5 +4240,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16356,
+    "original_text": "JUST IN: 🇺🇸🇨🇳 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.\n\n@WatcherGuru",
+    "caption": "🇺🇸🇨🇳 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.",
+    "date": "2026-11-26 17:00:54",
+    "status": "published",
+    "zernio_post_id": "6b0865c9bfad985c20d77a9e",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125998266542137385",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgNl-IFij8y",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16358,
+    "original_text": "JUST IN: 🇷🇺 Russian President Putin warns AI has the potential to become a dangerous force capable of harming humanity.\n\n@WatcherGuru",
+    "caption": "🇷🇺 Russian President Putin warns AI has the potential to become a dangerous force capable of harming humanity.",
+    "date": "2026-11-26 17:01:38",
+    "status": "published",
+    "zernio_post_id": "6b0865f3c82fab0ad9cc42ae",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2125998438550589835",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgNmCJijtBM",
+        "error": null
+      }
+    }
   }
 ]
