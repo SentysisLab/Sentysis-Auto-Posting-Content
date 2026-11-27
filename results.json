@@ -4360,5 +4360,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16363,
+    "original_text": "JUST IN: 🇺🇸 US Air Force hacked following cyberattack on its cloud platform used to manage military operations and data.\n\n@WatcherGuru",
+    "caption": "🇺🇸 US Air Force hacked following cyberattack on its cloud platform used to manage military operations and data.",
+    "date": "2026-11-27 12:00:56",
+    "status": "published",
+    "zernio_post_id": "6b0970f9dc3a1f7baa3ebf8f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126285152150077751",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgPoaEhCHWE",
+        "error": null
+      }
+    }
   }
 ]
