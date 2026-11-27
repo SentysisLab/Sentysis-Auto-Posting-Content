@@ -4460,5 +4460,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16370,
+    "original_text": "JUST IN: China, Japan, South Korea and ASEAN countries agree to form joint working group on crypto regulation and cross-border digital payments.\n\n@WatcherGuru",
+    "caption": "China, Japan, South Korea and ASEAN countries agree to form joint working group on crypto regulation and cross-border digital payments.",
+    "date": "2026-11-27 19:00:48",
+    "status": "published",
+    "zernio_post_id": "6b09d3605efcedb4de62b512",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126390808152506830",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQYdMJjInD",
+        "error": null
+      }
+    }
   }
 ]
