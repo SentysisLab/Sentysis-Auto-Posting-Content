@@ -4380,5 +4380,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16364,
+    "original_text": "JUST IN: $250,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
+    "caption": "$250,000,000 worth of crypto longs liquidated in the past 30 minutes.",
+    "date": "2026-11-27 16:00:59",
+    "status": "published",
+    "zernio_post_id": "6b09a93cd3d3ff91fbee26df",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126345566506373412",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQD4ghjcOs",
+        "error": null
+      }
+    }
   }
 ]
