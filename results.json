@@ -4300,5 +4300,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16360,
+    "original_text": "JUST IN: Bitcoin reclaims $62,000\n\n@WatcherGuru",
+    "caption": "Bitcoin reclaims $62,000",
+    "date": "2026-11-27 09:00:48",
+    "status": "published",
+    "zernio_post_id": "6b0946c1f13afcc0f0a5512f",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126239828589072654",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgPTzp1CCUW",
+        "error": null
+      }
+    }
   }
 ]
