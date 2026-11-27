@@ -4480,5 +4480,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16371,
+    "original_text": "JUST IN: 🇧🇷 Brazil's Central Bank grants crypto exchange Binance regulatory approval to operate as foreign exchange broker.\n\n@WatcherGuru",
+    "caption": "🇧🇷 Brazil's Central Bank grants crypto exchange Binance regulatory approval to operate as foreign exchange broker.",
+    "date": "2026-11-27 22:00:46",
+    "status": "published",
+    "zernio_post_id": "6b09fd8ef198fe1c53e5b260",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126436098435846591",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQtDNbjTZj",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16372,
+    "original_text": "JUST IN: Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.\n\n@WatcherGuru",
+    "caption": "Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.",
+    "date": "2026-11-27 22:00:57",
+    "status": "published",
+    "zernio_post_id": "6b09fd9a463f9b2a4b91de3a",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126436147970572527",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQtEnWDUvs",
+        "error": null
+      }
+    }
   }
 ]
