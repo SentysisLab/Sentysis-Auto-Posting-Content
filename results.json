@@ -4400,5 +4400,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16365,
+    "original_text": "JUST IN: 🇫🇷 France officially enters a technical recession.\n\n@WatcherGuru",
+    "caption": "🇫🇷 France officially enters a technical recession.",
+    "date": "2026-11-27 17:01:01",
+    "status": "published",
+    "zernio_post_id": "6b09b750f87082e9574f4b6e",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126360688159244323",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQKxRFDbj7",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16367,
+    "original_text": "JUST IN: 🇺🇸 $1 trillion added to the US stock market today in the first two hours of trading.\n\n@WatcherGuru",
+    "caption": "🇺🇸 $1 trillion added to the US stock market today in the first two hours of trading.",
+    "date": "2026-11-27 17:01:35",
+    "status": "published",
+    "zernio_post_id": "6b09b77127133f598b80b533",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126360821835890851",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQK1e-kSL-",
+        "error": null
+      }
+    }
   }
 ]
