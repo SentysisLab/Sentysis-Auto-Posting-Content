@@ -4440,5 +4440,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16369,
+    "original_text": "JUST IN: 🇨🇳 China announces new rules for a government-backed blockchain-powered digital identity system.\n\n@WatcherGuru",
+    "caption": "🇨🇳 China announces new rules for a government-backed blockchain-powered digital identity system.",
+    "date": "2026-11-27 18:00:51",
+    "status": "published",
+    "zernio_post_id": "6b09c555972825a8eac9d93e",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126375737380749405",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgQRmk5kdLv",
+        "error": null
+      }
+    }
   }
 ]
