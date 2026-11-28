@@ -4600,5 +4600,25 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16380,
+    "original_text": "JUST IN: Trump family's World Liberty Financial $WLFI cryptocurrency has now crashed over 50% in the past 10 hours.\n\n@WatcherGuru",
+    "caption": "Trump family's World Liberty Financial $WLFI cryptocurrency has now crashed over 50% in the past 10 hours.",
+    "date": "2026-11-28 16:00:47",
+    "status": "published",
+    "zernio_post_id": "6b0afab05277ecc3805f2fc7",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126707909845205323",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgSoqFtjUrV",
+        "error": null
+      }
+    }
   }
 ]
