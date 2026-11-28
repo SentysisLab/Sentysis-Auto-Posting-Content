@@ -4560,5 +4560,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16375,
+    "original_text": "JUST IN: Trump family's World Liberty Financial $USD1 crypto stablecoin depegs from the US dollar.\n\n📰 https://watcherguru.com/\n\n@WatcherGuru",
+    "caption": "Trump family's World Liberty Financial $USD1 crypto stablecoin depegs from the US dollar.\n\n📰",
+    "date": "2026-11-28 08:00:52",
+    "status": "published",
+    "zernio_post_id": "6b0a8a35b9d439b6f1f339e0",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126587123687903511",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgRxumojJ3K",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16376,
+    "original_text": "JUST IN: Tron founder Justin Sun accuses Trump's family crypto project World Liberty Financial of investor fraud, calls for exchanges to delist $WLFI and USD1.\n\n\"Members of the team involved have already begun mass-deleting social media posts and related communications in an attempt to cover up their crimes.\"\n\n$WLFI is down 45% today and USD1 depegged from the US dollar.\n\n📰 https://watcherguru.com\n\n@WatcherGuru",
+    "caption": "Tron founder Justin Sun accuses Trump's family crypto project World Liberty Financial of investor fraud, calls for exchanges to delist $WLFI and USD1.\n\n\"Members of the team involved have already begun mass-deleting social media posts and related communications in an attempt to cover up their crimes.\"\n\n$WLFI is down 45% today and USD1 depegged from the US dollar.\n\n📰",
+    "date": "2026-11-28 08:01:13",
+    "status": "published",
+    "zernio_post_id": "6b0a8a4cb9d439b6f1f33a3c",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126587232840552478",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgRxzDSDIRX",
+        "error": null
+      }
+    }
   }
 ]
