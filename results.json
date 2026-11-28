@@ -4520,5 +4520,45 @@
         "error": null
       }
     }
+  },
+  {
+    "telegram_id": 16373,
+    "original_text": "JUST IN: Trump family's World Liberty Financial $WLFI cryptocurrency crashes over 35% in 15 minutes.\n\n📰 https://watcherguru.com/\n\n@WatcherGuru",
+    "caption": "Trump family's World Liberty Financial $WLFI cryptocurrency crashes over 35% in 15 minutes.\n\n📰",
+    "date": "2026-11-28 06:00:49",
+    "status": "published",
+    "zernio_post_id": "6b0a6e13f0cb05f814365bb6",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126556919108128940",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgRj_kejRNL",
+        "error": null
+      }
+    }
+  },
+  {
+    "telegram_id": 16374,
+    "original_text": "JUST IN: 🇺🇸 Federal regulators officially shut down $6 billion United Fidelity Bank, marking the biggest US bank failure since April 2024.\n\n📰 https://watcherguru.com/\n\n@WatcherGuru",
+    "caption": "🇺🇸 Federal regulators officially shut down $6 billion United Fidelity Bank, marking the biggest US bank failure since April 2024.\n\n📰",
+    "date": "2026-11-28 06:01:09",
+    "status": "published",
+    "zernio_post_id": "6b0a6e2638ab0c3bd815a011",
+    "platforms": {
+      "twitter": {
+        "status": "published",
+        "url": "https://twitter.com/i/web/status/2126556992336507169",
+        "error": null
+      },
+      "threads": {
+        "status": "published",
+        "url": "https://www.threads.com/@sentysislabs/post/DgRkBotirmc",
+        "error": null
+      }
+    }
   }
 ]
